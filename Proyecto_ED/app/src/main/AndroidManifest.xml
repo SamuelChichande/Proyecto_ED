@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Proyecto_ED"
         tools:targetApi="31">
         <activity
+            android:name=".ReservaVuelo"
+            android:exported="false" />
+        <activity
             android:name=".MenuInicio"
             android:exported="true" />
         <activity
