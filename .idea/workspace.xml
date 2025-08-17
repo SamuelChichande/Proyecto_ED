@@ -51,58 +51,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="Actualizacion Ventana Inicio">
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/MenuAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/agregar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/avionfondo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/eliminar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/imglogoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/modificar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_menu_admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/raw/admin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_menu_inicio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_menu_inicio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/2ef5a4aa1dcdfd3ae8e4fea04b47a41cc7cb9feaaa6fae4abf0f7f6d6e735fdf_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/2ef5a4aa1dcdfd3ae8e4fea04b47a41cc7cb9feaaa6fae4abf0f7f6d6e735fdf_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/2ef5a4aa1dcdfd3ae8e4fea04b47a41cc7cb9feaaa6fae4abf0f7f6d6e735fdf_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MenuInicio.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" afterDir="false" />
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana administrador - Sin diseño">
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,24 +115,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.MainActivity.executor": "Run",
-    "Android App.MenuAdmin.executor": "Run",
-    "Android App.MenuInicio.executor": "Run",
-    "Android App.app.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHELLCHECK.PATH": "C:\\Users\\Cesar Moreira\\AppData\\Roaming\\Google\\AndroidStudio2025.1.2\\plugins\\Shell Script\\shellcheck.exe",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Cesar Moreira/StudioProjects/Proyecto_ED/Proyecto_ED/app/src/main/res/raw"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.MainActivity.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.MenuAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.MenuInicio.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\Cesar Moreira\\AppData\\Roaming\\Google\\AndroidStudio2025.1.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cesar Moreira/StudioProjects/Proyecto_ED/Proyecto_ED/app/src/main/res/raw&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\res\raw" />
@@ -552,14 +502,42 @@
       <option name="project" value="LOCAL" />
       <updated>1755446240991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ventana administrador - Sin diseño">
+      <option name="closed" value="true" />
+      <created>1755461468692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755461468692</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ventana administrador - Sin diseño">
+      <option name="closed" value="true" />
+      <created>1755461517941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755461517941</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Ventana Inicio" />
     <MESSAGE value="Actualizacion Ventana Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion Ventana Inicio" />
+    <MESSAGE value="ventana administrador - Sin diseño" />
+    <option name="LAST_COMMIT_MESSAGE" value="ventana administrador - Sin diseño" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
