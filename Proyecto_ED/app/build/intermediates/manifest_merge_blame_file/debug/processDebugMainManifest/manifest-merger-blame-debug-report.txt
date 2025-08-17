@@ -43,11 +43,11 @@
 29        android:theme="@style/Theme.Proyecto_ED" >
 29-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:13:9-49
 30        <activity
-30-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:15:9-17:40
+30-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:15:9-17:39
 31            android:name="com.example.proyecto_ed.MenuInicio"
 31-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:16:13-39
-32            android:exported="false" />
-32-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:17:13-37
+32            android:exported="true" />
+32-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:17:13-36
 33        <activity
 33-->C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\AndroidManifest.xml:18:9-26:20
 34            android:name="com.example.proyecto_ed.MainActivity"

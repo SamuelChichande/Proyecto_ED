@@ -8,9 +8,11 @@ drawable img_avion
 drawable img_logo1
 drawable imgfondo
 drawable tile_bg
+id animationView
 id bgImage
 id content
 id header
+id idtext
 id imgLogo
 id main
 id tileFlights
@@ -20,6 +22,7 @@ layout activity_main
 layout activity_menu_inicio
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw airplane
 string app_name
 style Base.Theme.Proyecto_ED
 style Theme.Proyecto_ED
