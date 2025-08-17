@@ -4,7 +4,7 @@
             "outputFile": "com.example.proyecto_ed.app-mergeDebugResources-29:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Schic\\.gradle\\caches\\8.11.1\\transforms\\5f185ea017f2161805a8f83548aa8054\\transformed\\core-1.13.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Cesar Moreira\\.gradle\\caches\\8.11.1\\transforms\\5f185ea017f2161805a8f83548aa8054\\transformed\\core-1.13.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Schic\\.gradle\\caches\\8.11.1\\transforms\\5c4fe4cbcc58766be793491bba6c5db0\\transformed\\appcompat-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Cesar Moreira\\.gradle\\caches\\8.11.1\\transforms\\5c4fe4cbcc58766be793491bba6c5db0\\transformed\\appcompat-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

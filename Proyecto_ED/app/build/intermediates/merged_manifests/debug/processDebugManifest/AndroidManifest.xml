@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_ED" >
         <activity
+            android:name="com.example.proyecto_ed.MenuInicio"
+            android:exported="false" />
+        <activity
             android:name="com.example.proyecto_ed.MainActivity"
             android:exported="true" >
             <intent-filter>

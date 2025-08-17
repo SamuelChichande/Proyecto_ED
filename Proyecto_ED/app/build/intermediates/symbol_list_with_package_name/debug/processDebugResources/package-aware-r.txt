@@ -3032,6 +3032,9 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable img_avion
+drawable img_logo1
+drawable imgfondo
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3106,6 +3109,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
+drawable tile_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -3203,6 +3207,7 @@ id beginOnFirstDraw
 id beginning
 id below
 id bestChoice
+id bgImage
 id blocking
 id bottom
 id bounce
@@ -3319,6 +3324,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id header
 id header_title
 id hide_ime_id
 id hideable
@@ -3333,6 +3339,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgLogo
 id immediateStop
 id included
 id indeterminate
@@ -3571,6 +3578,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tileFlights
 id time
 id title
 id titleDividerNoCustom
@@ -3590,6 +3598,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtMeta
+id txtWelcome
 id unchecked
 id uniform
 id unlabeled
@@ -3729,6 +3739,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_menu_inicio
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
