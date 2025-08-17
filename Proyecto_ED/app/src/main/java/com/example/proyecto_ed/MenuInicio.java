@@ -28,5 +28,6 @@ public class MenuInicio extends AppCompatActivity {
             startActivity(i);
         });
 
+
     }
 }
