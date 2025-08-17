@@ -58,7 +58,7 @@
                 android:id="@+id/txtMeta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="AGO 16 10:34 AM  |  25°C"
+                android:text="AGO 16 10:34 AM | 25°C"
                 android:layout_marginTop="8dp"
                 android:textColor="#CCFFFFFF"
                 android:textSize="20sp" />

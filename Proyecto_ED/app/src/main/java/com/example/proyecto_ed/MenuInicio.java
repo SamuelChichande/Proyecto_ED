@@ -22,8 +22,5 @@ public class MenuInicio extends AppCompatActivity {
             return insets;
         });
 
-
-
-
     }
 }
