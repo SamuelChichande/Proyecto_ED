@@ -3020,8 +3020,10 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070074
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
+int drawable agregar 0x7f0700eb
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
+int drawable avionfondo 0x7f0700ec
 int drawable btn_checkbox_checked_mtrl 0x7f07007a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007b
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007c
@@ -3035,6 +3037,7 @@ int drawable design_ic_visibility 0x7f070083
 int drawable design_ic_visibility_off 0x7f070084
 int drawable design_password_eye 0x7f070085
 int drawable design_snackbar_background 0x7f070086
+int drawable eliminar 0x7f0700ed
 int drawable ic_arrow_back_black_24 0x7f070087
 int drawable ic_call_answer 0x7f070088
 int drawable ic_call_answer_low 0x7f070089
@@ -3058,6 +3061,7 @@ int drawable ic_search_black_24 0x7f07009a
 int drawable img_avion 0x7f07009b
 int drawable img_logo1 0x7f07009c
 int drawable imgfondo 0x7f07009d
+int drawable imglogoo 0x7f0700ee
 int drawable indeterminate_static 0x7f07009e
 int drawable m3_avd_hide_password 0x7f07009f
 int drawable m3_avd_show_password 0x7f0700a0
@@ -3080,6 +3084,7 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f0700b0
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0700b1
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0700b2
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0700b3
+int drawable modificar 0x7f0700ef
 int drawable mtrl_bottomsheet_drag_handle 0x7f0700b4
 int drawable mtrl_checkbox_button 0x7f0700b5
 int drawable mtrl_checkbox_button_checked_unchecked 0x7f0700b6
@@ -3240,6 +3245,9 @@ int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
 int id buttonPanel 0x7f080066
+int id buttonagregar 0x7f080210
+int id buttoneliminar 0x7f080211
+int id buttonmodificar 0x7f080212
 int id cache_measures 0x7f080067
 int id callMeasure 0x7f080068
 int id cancel_button 0x7f080069
@@ -3369,6 +3377,8 @@ int id ignore 0x7f0800e1
 int id ignoreRequest 0x7f0800e2
 int id image 0x7f0800e3
 int id imgLogo 0x7f0800e4
+int id imgadmin 0x7f08020f
+int id imgfondoavion 0x7f08020a
 int id immediateStop 0x7f0800e5
 int id included 0x7f0800e6
 int id indeterminate 0x7f0800e7
@@ -3612,6 +3622,7 @@ int id textinput_placeholder 0x7f0801d0
 int id textinput_prefix_text 0x7f0801d1
 int id textinput_suffix_text 0x7f0801d2
 int id tileFlights 0x7f0801d3
+int id tilesSection 0x7f08020e
 int id time 0x7f0801d4
 int id title 0x7f0801d5
 int id titleDividerNoCustom 0x7f0801d6
@@ -3772,6 +3783,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout activity_menu_admin 0x7f0b006d
 int layout activity_menu_inicio 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
@@ -3855,7 +3867,10 @@ int layout support_simple_spinner_dropdown_item 0x7f0b006c
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
+int raw admin 0x7f130003
 int raw airplane 0x7f130000
+int raw fondoadmin 0x7f130001
+int raw fondoavion 0x7f130002
 int string abc_action_bar_home_description 0x7f0f0000
 int string abc_action_bar_up_description 0x7f0f0001
 int string abc_action_menu_overflow_description 0x7f0f0002

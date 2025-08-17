@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Proyecto_ED"
         tools:targetApi="31">
         <activity
+            android:name=".MenuAdmin"
+            android:exported="true" />
+        <activity
             android:name=".MenuInicio"
             android:exported="true" />
         <activity
