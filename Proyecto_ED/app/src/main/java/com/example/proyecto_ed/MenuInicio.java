@@ -22,11 +22,7 @@ public class MenuInicio extends AppCompatActivity {
             return insets;
         });
 
-        LinearLayout tileFlights = findViewById(R.id.tileFlights);
-        tileFlights.setOnClickListener(v -> {
-            Intent i = new Intent(MenuInicio.this,NUEVA_VENTANA);//actualizar nueva ventana
-            startActivity(i);
-        });
+
 
 
     }
