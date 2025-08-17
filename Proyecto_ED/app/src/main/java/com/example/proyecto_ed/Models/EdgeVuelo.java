@@ -21,4 +21,20 @@ public class EdgeVuelo<E, Aeropuerto> {
         this.target = target;
         this.data = null;
     }
+
+    public E getData() {
+        return data;
+    }
+
+    public VertexAeropuerto<Aeropuerto, E> getSource() {
+        return source;
+    }
+
+    public VertexAeropuerto<Aeropuerto, E> getTarget() {
+        return target;
+    }
+
+    public Duration getWeight() {
+        return weight;
+    }
 }

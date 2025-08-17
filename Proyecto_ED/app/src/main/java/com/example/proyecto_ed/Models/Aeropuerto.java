@@ -18,4 +18,23 @@ public class Aeropuerto {
         this.vuelos = new LinkedList<>();
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public List<Vuelo> getVuelos() {
+        return vuelos;
+    }
 }

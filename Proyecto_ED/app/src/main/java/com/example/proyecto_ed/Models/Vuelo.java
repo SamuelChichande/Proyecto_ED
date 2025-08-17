@@ -15,26 +15,26 @@ public class Vuelo {
     private LocalDate fechaLlegada;
     private LocalTime horaLlegada;
     private Duration duracion;
+    //La distancia sera en km
+    private double distancia;
     private String aerolinea;
-    private Estado estado;
     private int capacidad;
     private int asientosDisponibles;
-    private int precioBase;
+    private int precio;
     private List<Cliente> pasajeros;
 
-    public Vuelo(int id, String origen, String destino, LocalDate fechaSalida, LocalTime horaSalida, LocalDate fechaLlegada, LocalTime horaLlegada, String aerolinea, Estado estado, int capacidad, int asientosDisponibles, int precioBase) {
-        this.id = id;
+    public Vuelo(String origen, String destino, LocalDate fechaSalida, LocalTime horaSalida, LocalDate fechaLlegada, LocalTime horaLlegada, double distancia, String aerolinea, int capacidad, int asientosDisponibles, int precio) {
         this.origen = origen;
         this.destino = destino;
         this.fechaSalida = fechaSalida;
         this.horaSalida = horaSalida;
         this.fechaLlegada = fechaLlegada;
         this.horaLlegada = horaLlegada;
+        this.distancia = distancia;
         this.aerolinea = aerolinea;
-        this.estado = estado;
         this.capacidad = capacidad;
         this.asientosDisponibles = asientosDisponibles;
-        this.precioBase = precioBase;
+        this.precio = precio;
         this.pasajeros = new LinkedList<>();
         this.duracion = calcularDuracion();
     }

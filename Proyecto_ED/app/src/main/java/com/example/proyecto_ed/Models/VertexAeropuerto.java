@@ -10,4 +10,12 @@ public class VertexAeropuerto<Aeropuerto, E> {
         this.content = content;
         this.edgesVuelos = new LinkedList<>();
     }
+
+    public Aeropuerto getContent() {
+        return content;
+    }
+
+    public LinkedList<EdgeVuelo<E, Aeropuerto>> getEdgesVuelos() {
+        return edgesVuelos;
+    }
 }
