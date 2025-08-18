@@ -14,15 +14,27 @@
         android:orientation="vertical"
         android:padding="15dp"
         android:textAlignment="gravity"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="162dp"
+            android:layout_height="125dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/book"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/fuente4"
             android:text="Book your flight"
-            android:textSize="24sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="39dp" />
 
@@ -31,13 +43,16 @@
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal"
-            android:paddingTop="5dp">
+            android:paddingTop="0dp"
+            android:background="@drawable/custom_input2">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/fuente1"
+                android:paddingStart="10dp"
                 android:text="Origen" />
 
             <TextView
@@ -45,7 +60,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Destino" />
+                android:paddingStart="10dp"
+                android:text="Destino"
+                android:fontFamily="@font/fuente1"/>
         </LinearLayout>
 
         <LinearLayout
@@ -72,7 +89,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Vuelos para su destino" />
+            android:text="Vuelos para su destino"
+            android:textSize="20dp"
+            android:fontFamily="@font/fuente1"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/color_text"/>
 
         <ListView
             android:layout_width="match_parent"
