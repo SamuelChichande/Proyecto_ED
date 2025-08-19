@@ -198,7 +198,7 @@
         app:layout_constraintVertical_bias="0.046" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/btnRegistrarUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#7BB4D3"

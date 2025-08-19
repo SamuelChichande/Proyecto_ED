@@ -5,8 +5,9 @@ import java.time.LocalTime;
 
 public class Administrador extends Usuario{
 
-    public Administrador(int idUser, String nombre, String apellido, String cedula, String usuario, String contraseña) {
-        super(idUser, nombre, apellido, cedula, usuario, contraseña);
+    public Administrador(String nombre, String apellido, String cedula, String usuario, String contraseña) {
+        super(nombre, apellido, cedula, usuario, contraseña);
+        this.isAdmin = true;
     }
 
     public void crearVuelo(String origen, String destino, LocalDate fechaSalida, LocalTime horaSalida, LocalDate fechaLlegada, LocalTime horaLlegada, double distancia, String aerolinea, int capacidad, int asientosDisponibles, int precio){
