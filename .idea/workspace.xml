@@ -5,12 +5,47 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/avion_despegando.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/baseline_account_circle_24.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/boton.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/cliente_background.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/custom_input2.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/destino.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_inicio.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_reserva.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
@@ -26,6 +61,16 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/reservar.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/titulo_vuelos.xml">
+        <config>
+          <theme>@style/Theme.Proyecto_ED</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/volver.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
@@ -52,6 +97,7 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_reserva_vuelo.xml">
         <config>
+          <state>Portrait</state>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
@@ -71,12 +117,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana administrador - Sin diseño">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/reservar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_cliente.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/raw/book.json" afterDir="false" />
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana reserva y ventana cliente - diseño en proceso">
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/avion_despegando.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/cliente_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/destino.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_reserva.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/icono_cancelar_vuelo_sin_fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/plane_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/reservation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/titulo_vuelos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/font/fuente5.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/raw/perfil.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -85,289 +139,34 @@
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_bd8066b6528043fb4791d179fd89c781545f554040bc5ad7f1fcb8cda504b714_bucket_0/graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_bd8066b6528043fb4791d179fd89c781545f554040bc5ad7f1fcb8cda504b714_bucket_1/graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_bd8066b6528043fb4791d179fd89c781545f554040bc5ad7f1fcb8cda504b714_bucket_2/graph.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+H4SLEWGHVMbFRdy8GmnuDE1xIE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+VEtqRGqM0I1XJ6MtiaaXRITfCo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+oDYwD0eCKFv69I8iJy6q6pX8S4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0+zi8oJmULhpfnkC0J0+ds5XF+0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1hCct2tLIEWwqyVoJd2SWy5hZQ4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/28e6vFBYXil6ulH0ZIE+iXU4Iwg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4nAmFzPrrABQCpTi+NydUzUKkWM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5RKgl0UkV6ubIF54iZnA4YWkHkM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6+mk4g3jX2OoZGGN9pwG8erStSA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/66lqDbGf6cZCX4JYwLLqyNVYFgo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/68SUGQ0iF2HHU2ckDeH8eC_nxSg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8M+F4TPbgbu_OPiW3TydGmpcMb8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8lJq_VBI6cdBpsT0jbXJcILsNqE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9CAhqMIroKQtlxiY7uAZOkLo_sc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/A43_v3wtNrCUlhZnbAKfeEK4NpI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/APRabtt_+bRsda4kU++5+6_7_bA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ATynmDHAQ2ZR+Ah8B0_XVHDpXhw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AW1MDwJBvobR6Bt5q89AajwKNM8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AYVtBhC3KwTmGQUz7m6ckEuMG8w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/C2HNARM661JKHpdVByQ+Vy0SxQw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DnwQTWU8H8hAllkXrSAyBxJXN+g=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DtToxCVW8r_cdfd2NC4xow8kqew=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/EwGsU10tQtU3UqGC2q_lxnI01w0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F+52et8rBkiK99x5YifpEMSOE3c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F1dmnVAHRBQrdC2Kdk8k4pJZ7Ic=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Fb5lzDR2QSPbunu3TMRyfwaOnas=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/H07DoL+avMEtGLtgRAWfPPXquWs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/H9Ia8481V_6D42_gA2H595w64PQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HDvsr7d7gL9+ZKsx2FL7ApbHJlA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HPBaV8Onj3ywBcxGGYf+dSkJ3K4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IBNlNulRgfO_ByLrgvcsJpvCOZ0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IJaxzsoIlw8wSXu0amCr5VlW6qQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Iu4tK5U+4qBkzts6l3Kzz8OCpDw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JW0lFH2J24pQjHZSSMWIm+Ifk18=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JaWM7P6OSECU2GdA+2w+AKkp5aU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KVD1ti7YYPFG6qDK+fn+TzrDF2w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LEX9xFbblXlsDB8BzpFSP9TEKMQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MUGXE1UL9+VG29bDgDcGIDhInbU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MatWxGbwRnEPJ41uJySQkAIiSbo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/O7dNupo7H6dq3IbfDshaDwDldTY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P77jkJ4WoShykLON7x7YL9CpC3Q=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PUpY20G6TaPdm+7lH1Yurg2p6Z4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PeX5pNZeSEZMAWUZOAoIPtPkWKo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Pk_HfQXLoX5cIenB6qAekZQ7j60=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PznWs10SEDvsoHOhLOtEOFnO038=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Qn3zIkWXfL+xiARKbCv8QZOw3us=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QpQ1MSGuYIOF_EhrD_P_HT5YVwc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QtS5+bigSaggCRWy0tutnQowC2c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/R+uPPcPnxIe8pxIdQNt1avcBc0U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/S+puWNP76PgedgYfISo0mBliRNg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Sf4nw9hzCevtNvhFQwU+hCvUYNs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SxN2sFWeD8ncqERamvjBFEiqQrw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UWlHToOHy3+M_54P_wB7KdigV30=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UXcfXPPK834T1Nsi3uyvpiPpGsA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UfT2H1MAK5DCusfbUeEYkSTscPQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ug6LMvafE86W9X6_V4VmDt+PWzc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ut56m_JHha+xBp15y7s52XPNDIU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VGemHsgorRAaxp24dF5lTvvJz+M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WN6XLGnLXNddxTlax_BxbfvCtxU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WiRm8jNYSmsDaY1myjbR5dtiS4s=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Wx5YHx_OIHbn1Jcp1P_Xn9RgLQ0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WyKS8C7J9b6jPh+c+D94+DGi5aw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XsF5Il9Khls9sdrelyQnqFwl_9E=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_LgCZLue4wV2frcg3N3s5wWOpL8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_y_UFwoFfL7r1N7jvEDmV+n5LRE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aLETIj9DMjNXy10UGgFeHF7WnjY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bMWq1jhavzyQVcQBypvqBZO+1Wk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bOGic94hgVbZnL5n5xkRJISp2_0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/blsRJHqQHsrfy12Wb_TM_uNcqZk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/d5AkPFh4JImm_Wx9toCjxnkqYSY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dHssBlCs2x_WPPMCFckZQ9+rR3k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eo+inAufOWPURo_jM+qEVwJHgdQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/evJWeo7g7l0+siuQ6lu_PId8+eM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fc3kY3a4PFmZYYtBwmbU9lV69yo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/g1nnq0pEO29KMxfP5wfYKQVCpdU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gXLW6+fR5+uAm1QHsld4DqEIpnY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h9wACQysJ7gAQ0xTzbYkJsaxsww=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iAo4FMlNf4Xd1L7QvKFX8ESd1pc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jYNDMn22Shtb5J7jjQgHTiGSAzo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kYpcFx9DduaqYRAletWDcwj9w88=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lxFZ0xFYmV5Af3mN+UQucKEKsJs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mAEW0QxrCECXdjS9O7XGpNx9Gy0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mC4wfjSKHe5f8LPdh8xdvY4_0ko=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nFK56V2VU3fDJLoYIH8fhcRrPHw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oI72yU6WYCFr_J9INlmu+BOZ+J8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oLSawKJCN_fXJd52lYAh3pp5SJ0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ol1WgeXJmKmBXkvPvGIye5vh45o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qVhcmAKGnnH3iDeL3g1gji7jTpc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rf+hs7lm2XEbfsZZZPcHF05CVzg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tzKvK8DfYjlqDpafVKxCaTPFEcs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uNb2ty4ZbDTcerqsCAlIyAZeXq0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uQ5Wm62oPX3Kb8Bs0yRVjlJsrek=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ufVPA7fnhCI8DWWkPrNxrp_wDVg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vHhW+5xl_XLy+vLn0Im8lhc05sU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/x0EC0Yg0NpoRdoakDh8ezqurAIw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xBASyn+PQGC8El2dgSmHJxRjOBw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/x_nIuRyMZ69v9nGCBkeUeZngJqE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xnrobmtF0XBUBX+DSS3AxuZjH3c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/y6G69ViIyimMRxVTfoB2QVLLg2g=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/y9fSgM_rfrRoois6kfSU8oeMy90=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yowH1w1vOddp5Vrk2YPs1xpA400=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zIwjDXLOSwYRH5n5Q+fTjMDu09U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zO3yUOu_U4VzuiWHbSxYVAoVHHM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AL4_9onlZUAzBzrmm_iN_DhJ+_0=" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AL4_9onlZUAzBzrmm_iN_DhJ+_0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dfJ1Iy02vcUcYoJtLqtzMolPxEM=" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dfJ1Iy02vcUcYoJtLqtzMolPxEM=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuInicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/processDebugResources/resources-list-for-linked-resources-binary-format-debug.ap_.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/processDebugResources/resources-list-for-linked-resources-binary-format-debug.ap_.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_activity_menu_admin.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_activity_menu_admin.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-af.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-am.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-as.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-az.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+es+419.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+es+419.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-be.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rAU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rGB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rIN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rXC.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es-rUS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-et.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-eu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h320dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h320dp-port-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h360dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h360dp-land-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h480dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h480dp-land-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h550dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h550dp-port-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-is.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-iw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-km.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-land.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-large-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ldrtl-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ldrtl-v17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-night-v8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-or.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-port.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rBR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rPT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-si.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-small-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-small-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-te.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-th.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v31.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v31.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v34.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v34.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w320dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w320dp-land-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w360dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w360dp-port-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w400dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w400dp-port-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w600dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-w600dp-land-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rCN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rHK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rTW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_volver.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_volver.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_menu_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/activity_menu_admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/raw/airplane.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/raw/airplane.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/5ad2fae8e16eb81330dbcb0cc7bed140d607ae8dc9477229c5c67ddb3c87fda1_7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/7bf3c2242ee46984cadc924ce7588d5f200903a65b2177d9ffbc1b8a741a07eb_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/7bf3c2242ee46984cadc924ce7588d5f200903a65b2177d9ffbc1b8a741a07eb_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/7bf3c2242ee46984cadc924ce7588d5f200903a65b2177d9ffbc1b8a741a07eb_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuAdmin.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuAdmin.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuInicio.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuInicio.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/drawable/volver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/drawable/volver.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MenuAdmin.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MenuInicio.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/volver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/volver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_cliente.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_cliente.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_reserva_vuelo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_reserva_vuelo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +176,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=11098253AJ015383)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Asus\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Proyecto_ED">
       <ProjectState />
@@ -425,7 +224,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SamuelChichande/Proyecto_ED.git&quot;,
-    &quot;accountId&quot;: &quot;ffab4756-0ef1-4c6f-8079-b1776280097f&quot;
+    &quot;accountId&quot;: &quot;017f3200-3f76-4d6d-b077-d12623cc62d2&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -463,6 +262,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\AndroidStudioProjects\Proyecto_ED\Airport\Proyecto_ED\app\src\main\res\raw" />
+      <recent name="C:\Users\Asus\AndroidStudioProjects\Proyecto_ED\Airport\Proyecto_ED\app\src\main\res\drawable" />
+      <recent name="C:\Users\Asus\AndroidStudioProjects\Proyecto_ED\Airport\Proyecto_ED\app\src\main\res\font" />
       <recent name="C:\Users\Cesar Moreira\StudioProjects\Proyecto_ED\Proyecto_ED\app\src\main\res\drawable" />
     </key>
     <key name="android.template.1926701803">
@@ -834,17 +635,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Proyecto_ED" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Proyecto_ED" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Android App.ReservaVuelo" />
@@ -934,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755480003484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ventana reserva y ventana cliente - diseño en proceso">
+      <option name="closed" value="true" />
+      <created>1755499528647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755499528647</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -953,19 +751,20 @@
     <MESSAGE value="Ventana Inicio" />
     <MESSAGE value="Actualizacion Ventana Inicio" />
     <MESSAGE value="ventana administrador - Sin diseño" />
-    <option name="LAST_COMMIT_MESSAGE" value="ventana administrador - Sin diseño" />
+    <MESSAGE value="ventana reserva y ventana cliente - diseño en proceso" />
+    <option name="LAST_COMMIT_MESSAGE" value="ventana reserva y ventana cliente - diseño en proceso" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.proyecto_ed">
           <value>
-            <CheckInfo lastCheckTimestamp="1755469231703" />
+            <CheckInfo lastCheckTimestamp="1755565723747" />
           </value>
         </entry>
         <entry key="com.example.proyecto_ed.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1755469231702" />
+            <CheckInfo lastCheckTimestamp="1755565723747" />
           </value>
         </entry>
       </map>

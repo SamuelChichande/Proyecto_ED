@@ -3031,6 +3031,7 @@ drawable abc_vector_test
 drawable agregar
 drawable avd_hide_password
 drawable avd_show_password
+drawable avion_despegando
 drawable avionfondo
 drawable baseline_account_circle_24
 drawable btn_checkbox_checked_mtrl
@@ -3041,6 +3042,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cliente_background
 drawable color_text
 drawable contra
 drawable custom_input
@@ -3050,9 +3052,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable destino
 drawable eliminar
 drawable fondo_inicio
 drawable fondo_registro
+drawable fondo_reserva
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3073,6 +3077,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable icono_cancelar_vuelo_sin_fondo
 drawable img
 drawable img_1
 drawable img_avion
@@ -3154,18 +3159,23 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable password
+drawable plane_icon
 drawable register
 drawable reservar
+drawable reservation
 drawable test_level_drawable
 drawable tile_bg
+drawable titulo_vuelos
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twotone_attach_email_24
+drawable user
 drawable volver
 font fuente1
 font fuente2
 font fuente3
 font fuente4
+font fuente5
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3556,6 +3566,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id reservar
 id restart
 id reverse
 id reverseSawtooth
@@ -3924,6 +3935,7 @@ raw created
 raw fondoadmin
 raw fondoavion
 raw login
+raw perfil
 raw register
 raw registersection
 string abc_action_bar_home_description
