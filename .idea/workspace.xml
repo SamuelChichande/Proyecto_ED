@@ -15,11 +15,6 @@
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/boton.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/cliente_background.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
@@ -117,56 +112,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana reserva y ventana cliente - diseño en proceso">
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/avion_despegando.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/cliente_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/destino.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_reserva.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/icono_cancelar_vuelo_sin_fondo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/plane_icon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/reservation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/titulo_vuelos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/font/fuente5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/raw/perfil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana reserva y ventana cliente - diseño casi terminados">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AL4_9onlZUAzBzrmm_iN_DhJ+_0=" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AL4_9onlZUAzBzrmm_iN_DhJ+_0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dfJ1Iy02vcUcYoJtLqtzMolPxEM=" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dfJ1Iy02vcUcYoJtLqtzMolPxEM=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/processDebugResources/resources-list-for-linked-resources-binary-format-debug.ap_.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/processDebugResources/resources-list-for-linked-resources-binary-format-debug.ap_.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_volver.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_volver.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/drawable/volver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/packaged_res/debug/packageDebugResources/drawable/volver.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/color_text.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/volver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/volver.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_cliente.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_cliente.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_reserva_vuelo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_reserva_vuelo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +167,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -274,7 +238,7 @@
       <recent name="com.example.proyecto_ed.Models" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.ReservaVuelo">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="MainActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
       <module name="Proyecto_ED.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
@@ -635,6 +599,13 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.MainActivity" />
+      <item itemvalue="Android App.MenuAdmin" />
+      <item itemvalue="Android App.MenuInicio" />
+      <item itemvalue="Android App.ReservaVuelo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Android App.ReservaVuelo" />
@@ -732,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755499528647</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ventana reserva y ventana cliente - diseño casi terminados">
+      <option name="closed" value="true" />
+      <created>1755591042365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755591042365</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -752,19 +731,20 @@
     <MESSAGE value="Actualizacion Ventana Inicio" />
     <MESSAGE value="ventana administrador - Sin diseño" />
     <MESSAGE value="ventana reserva y ventana cliente - diseño en proceso" />
-    <option name="LAST_COMMIT_MESSAGE" value="ventana reserva y ventana cliente - diseño en proceso" />
+    <MESSAGE value="ventana reserva y ventana cliente - diseño casi terminados" />
+    <option name="LAST_COMMIT_MESSAGE" value="ventana reserva y ventana cliente - diseño casi terminados" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.proyecto_ed">
           <value>
-            <CheckInfo lastCheckTimestamp="1755565723747" />
+            <CheckInfo lastCheckTimestamp="1755738029531" />
           </value>
         </entry>
         <entry key="com.example.proyecto_ed.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1755565723747" />
+            <CheckInfo lastCheckTimestamp="1755738029533" />
           </value>
         </entry>
       </map>

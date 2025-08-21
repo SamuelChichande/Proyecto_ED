@@ -15,10 +15,10 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206"
+        app:layout_constraintVertical_bias="1.04"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/perfil"
+        app:lottie_rawRes="@raw/air"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/imgfondoavion"
@@ -95,8 +95,9 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#EF7749">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -132,8 +133,10 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#7EA6CC"
+                android:outlineAmbientShadowColor="#0B0B0B">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
