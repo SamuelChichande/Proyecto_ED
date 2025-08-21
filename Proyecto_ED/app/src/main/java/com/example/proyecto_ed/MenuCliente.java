@@ -1,37 +1,35 @@
 package com.example.proyecto_ed;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
-import android.widget.Spinner;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.google.android.material.button.MaterialButton;
-
-public class ReservaVuelo extends AppCompatActivity {
-    private Spinner origen, destino;
-    private ListView vuelosProgramados;
-    private MaterialButton reservarVuelo;
+public class MenuCliente extends AppCompatActivity {
+    private CardView reservar, cancelar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_reserva_vuelo);
+        setContentView(R.layout.activity_cliente);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        origen = findViewById(R.id.sp_Origen);
-        destino = findViewById(R.id.sp_Destino);
-        vuelosProgramados = findViewById(R.id.lv_Vuelos);
-        reservarVuelo = findViewById(R.id.btn_reservarVuelo);
+        reservar = findViewById(R.id.cardReservar);
+        cancelar = findViewById(R.id.cardCancelar);
 
+        reservar.setOnClickListener(v -> {
+            Intent intent = new Intent(this, ReservaVuelo.class);
+            startActivity(intent);
+        });
     }
 }

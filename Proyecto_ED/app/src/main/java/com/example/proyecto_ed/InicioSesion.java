@@ -9,6 +9,9 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.proyecto_ed.Models.Administrador;
+import com.example.proyecto_ed.Models.Cliente;
+import com.example.proyecto_ed.Models.Usuario;
 import com.example.proyecto_ed.Services.FileManager;
 
 import java.util.Iterator;
@@ -40,7 +43,7 @@ public class InicioSesion extends AppCompatActivity {
             String pass = contrasena.getText().toString();
 
             if (validarUsuario(user, pass)) {
-                Toast.makeText(this, "", Toast.LENGTH_SHORT).makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
                 // Ir a otra pantalla, ya sea cliente o administrador
                 Intent intent = null;
                 if (userIsAdmin(user, pass)){
@@ -50,7 +53,8 @@ public class InicioSesion extends AppCompatActivity {
                     //Menu de cliente
                     intent = new Intent(this, RegistrarUsuario.class);
                 }
-
+                //Pasar usuario
+                //intent.putExtra("methodName",getDateUser(user, pass));
                 startActivity(intent);
 
             } else {
@@ -64,7 +68,7 @@ public class InicioSesion extends AppCompatActivity {
         });
     }
 
-    private String[] getDateUser(String user, String pass){
+    private Usuario getDateUser(String user, String pass){
         List<String> cadenas = FileManager.leerArchivo(this, "usuarios.txt");
         if (cadenas != null){
             Iterator<String> it = cadenas.iterator();
@@ -72,7 +76,11 @@ public class InicioSesion extends AppCompatActivity {
                 String c = it.next();
                 String[] componentes = c.split(",");
                 if (componentes[4].equals(user) && componentes[5].equals(pass)){
-                    return componentes;
+                    if (Boolean.parseBoolean(componentes[6])){
+                        return new Administrador(componentes[1], componentes[2], componentes[3], componentes[4], componentes[5]);
+                    } else {
+                        return new Cliente(componentes[1], componentes[2], componentes[3], componentes[4], componentes[5]);
+                    }
                 }
             }
         }
@@ -88,9 +96,9 @@ public class InicioSesion extends AppCompatActivity {
     }
 
     private boolean userIsAdmin(String user, String pass){
-        String[] component = getDateUser(user, pass);
-        if (component != null){
-            return Boolean.parseBoolean(component[6]);
+        Usuario usuario = getDateUser(user, pass);
+        if (user != null){
+            return usuario.isAdmin();
         }
         return false;
     }

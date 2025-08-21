@@ -79,13 +79,13 @@
             android:orientation="horizontal">
 
             <Spinner
-                android:id="@+id/spinner4"
+                android:id="@+id/sp_Origen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
             <Spinner
-                android:id="@+id/spinner5"
+                android:id="@+id/sp_Destino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
@@ -107,17 +107,17 @@
            />
 
         <ListView
+            android:id="@+id/lv_Vuelos"
             android:layout_width="match_parent"
             android:layout_height="255dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/color_text"
 
-            />
+            android:background="@drawable/color_text" />
 
 
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/reservar"
+            android:id="@+id/btn_reservarVuelo"
             android:layout_width="140dp"
             android:layout_height="49dp"
             app:cornerRadius="10dp"

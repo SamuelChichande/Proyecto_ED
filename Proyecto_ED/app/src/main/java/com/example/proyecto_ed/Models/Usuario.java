@@ -17,6 +17,26 @@ public abstract class Usuario {
         this.contraseña = contraseña;
     }
 
+    public int getIdUser() {
+        return idUser;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+
     @Override
     public String toString() {
         return idUser+","+nombre+","+apellido+","+cedula+","+usuario+","+contraseña;
