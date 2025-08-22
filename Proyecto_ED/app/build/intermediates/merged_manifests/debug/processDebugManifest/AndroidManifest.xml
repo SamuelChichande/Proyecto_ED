@@ -52,6 +52,15 @@
             android:name="com.example.proyecto_ed.MenuInicio"
             android:exported="true" />
         <activity
+            android:name="com.example.proyecto_ed.MenuCliente"
+            android:exported="true" />
+        <activity
+            android:name="com.example.proyecto_ed.InicioSesion"
+            android:exported="true" />
+        <activity
+            android:name="com.example.proyecto_ed.RegistrarUsuario"
+            android:exported="true" />
+        <activity
             android:name="com.example.proyecto_ed.MainActivity"
             android:exported="true" >
             <intent-filter>

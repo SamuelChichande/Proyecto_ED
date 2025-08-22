@@ -27,6 +27,15 @@
             android:name=".MenuInicio"
             android:exported="true" />
         <activity
+            android:name=".MenuCliente"
+            android:exported="true" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrarUsuario"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
 
