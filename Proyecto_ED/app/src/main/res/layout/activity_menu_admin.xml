@@ -16,7 +16,7 @@
         android:paddingEnd="12dp"
         android:paddingTop="10dp"
         android:paddingBottom="16dp"
-        android:background="@drawable/fondo_reserva"
+        android:background="@drawable/cliente_background"
         >
 
 
@@ -51,8 +51,8 @@
             android:fontFamily="@font/fuente4"
             android:text="Welcome Admin"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +61,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.228" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0" />
         <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="match_parent"
@@ -69,11 +73,12 @@
             android:adjustViewBounds="false"
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
-            android:src="@drawable/img_admin" />
+            android:src="@drawable/img_admin"
+            app:tint="@android:color/white"/>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="20dp"
             android:layout_weight="0" />
 
         <TextView
@@ -82,7 +87,7 @@
             android:layout_marginTop="8dp"
 
             android:text="Gestion De Vuelos"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -90,12 +95,13 @@
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0" />
+
         <LinearLayout
             android:id="@+id/tilesSection"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="16dp">
+            android:layout_height="322dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -106,16 +112,16 @@
                 <LinearLayout
                     android:id="@+id/buttonagregar"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
                     android:background="@drawable/titulo_vuelos"
-                    android:padding="12dp"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
                     android:focusable="true"
-                    android:foreground="?attr/selectableItemBackground">
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
 
                     <ImageView
                         android:layout_width="56dp"
@@ -130,24 +136,24 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/fuente5"
                         android:text="Agregar"
-                        android:textStyle="bold"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/buttonmodificar"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
-                    android:layout_weight="1"
                     android:layout_marginStart="8dp"
+                    android:layout_weight="1"
                     android:background="@drawable/titulo_vuelos"
-                    android:padding="12dp"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
                     android:focusable="true"
-                    android:foreground="?attr/selectableItemBackground">
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
 
                     <ImageView
                         android:layout_width="56dp"
@@ -162,29 +168,30 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/fuente5"
                         android:text="Modificar"
-                        android:textStyle="bold"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="15dp"
                 android:layout_weight="0" />
+
             <LinearLayout
                 android:id="@+id/buttoneliminar"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginTop="12dp"
                 android:background="@drawable/titulo_vuelos"
-                android:padding="12dp"
-                android:gravity="center"
-                android:orientation="vertical"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?attr/selectableItemBackground">
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp">
 
                 <ImageView
                     android:layout_width="64dp"
@@ -199,9 +206,9 @@
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/fuente5"
                     android:text="Eliminar"
-                    android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:textSize="25sp" />
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

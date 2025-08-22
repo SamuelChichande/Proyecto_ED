@@ -101,12 +101,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="Ventana Mapa">
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/img_admin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="Moficacion ventana admin">
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_menu_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_menu_admin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -708,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755835556535</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Moficacion ventana admin">
+      <option name="closed" value="true" />
+      <created>1755885057828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755885057828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -730,7 +733,8 @@
     <MESSAGE value="ventana reserva y ventana cliente - diseño en proceso" />
     <MESSAGE value="ventana reserva y ventana cliente - diseño casi terminados" />
     <MESSAGE value="Ventana Mapa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ventana Mapa" />
+    <MESSAGE value="Moficacion ventana admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moficacion ventana admin" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
