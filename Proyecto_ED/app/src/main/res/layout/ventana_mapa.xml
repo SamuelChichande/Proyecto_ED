@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         map:cameraZoom="10"
         map:uiRotateGestures="true"
-        map:uiZoomControls="true" />
+        map:uiZoomControls="true"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
