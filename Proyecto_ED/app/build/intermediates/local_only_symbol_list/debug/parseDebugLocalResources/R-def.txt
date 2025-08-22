@@ -73,6 +73,7 @@ id imgadmin
 id imgfondoavion
 id lv_Vuelos
 id main
+id map
 id nombre
 id singUp
 id sp_Destino
@@ -94,6 +95,7 @@ layout activity_menu_inicio
 layout activity_reserva_vuelo
 layout inicio_sesion
 layout registro_usuario
+layout ventana_mapa
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw admin
