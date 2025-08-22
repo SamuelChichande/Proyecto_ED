@@ -14,16 +14,7 @@
       <SelectionState runConfigName="MenuInicio">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="InicioSesion">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="RegistrarUsuario">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="MenuAdmin">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="MenuCliente">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
