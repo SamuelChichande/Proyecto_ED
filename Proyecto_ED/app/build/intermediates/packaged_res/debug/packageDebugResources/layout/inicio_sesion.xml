@@ -24,7 +24,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/btnIniciarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Iniciar Sesion"
@@ -44,7 +44,7 @@
         app:strokeWidth="3dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button2"
+        android:id="@+id/btnRegistrarse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrarse"

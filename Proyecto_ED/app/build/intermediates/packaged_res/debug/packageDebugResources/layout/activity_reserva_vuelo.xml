@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservaVuelo">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/fondo_reserva"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="197dp"
+            android:layout_height="155dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/book"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fuente4"
+            android:textColor="#000000"
+            android:text="Book your flight"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="0dp"
+            android:background="@drawable/custom_input2">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/fuente1"
+                android:paddingStart="10dp"
+                android:text="Origen"
+                android:drawableStart="@drawable/avion_despegando"
+                android:drawablePadding="3dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:text="Destino"
+                android:drawableStart="@drawable/destino"
+                android:drawablePadding="3dp"
+                android:fontFamily="@font/fuente1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_Origen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/sp_Destino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Vuelos para su destino"
+            android:textSize="20dp"
+            android:fontFamily="@font/fuente1"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/titulo_vuelos"
+           />
+
+        <ListView
+            android:id="@+id/lv_Vuelos"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/color_text" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_reservarVuelo"
+            android:layout_width="140dp"
+            android:layout_height="49dp"
+            app:cornerRadius="10dp"
+            app:strokeColor="#F0F5F6"
+            app:strokeWidth="3dp"
+            app:iconPadding="5dp"
+            app:iconSize="0dp"
+            app:rippleColor="@color/white"
+            app:icon="@drawable/plane_icon"
+            android:text="Reservar"
+            android:backgroundTint="#E4691F"
+
+
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

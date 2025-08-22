@@ -3282,8 +3282,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button2
+id btnIniciarSesion
+id btnRegistrarUsuario
+id btnRegistrarse
+id btn_reservarVuelo
 id buttonPanel
 id buttonagregar
 id buttoneliminar
@@ -3291,6 +3293,8 @@ id buttonmodificar
 id cache_measures
 id callMeasure
 id cancel_button
+id cardCancelar
+id cardReservar
 id carryVelocity
 id cedula
 id center
@@ -3444,13 +3448,13 @@ id linear
 id listMode
 id list_item
 id lottie_layer_name
+id lv_Vuelos
 id m3_side_sheet
 id main
 id marquee
 id masked
 id match_constraint
 id match_parent
-id materialButton
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3566,7 +3570,6 @@ id radio
 id ratio
 id rectangles
 id report_drawn
-id reservar
 id restart
 id reverse
 id reverseSawtooth
@@ -3616,10 +3619,10 @@ id snap
 id snapMargins
 id software
 id south
+id sp_Destino
+id sp_Origen
 id spacer
 id special_effects_controller_view_tag
-id spinner4
-id spinner5
 id spline
 id split_action_bar
 id spread
@@ -3928,6 +3931,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw admin
+raw air
 raw airplane
 raw back
 raw book
