@@ -9,14 +9,16 @@ public class Aeropuerto {
     private String codigo;
     private String ciudad;
     private String pais;
+    private Ubicacion ubicacion;
     private List<Vuelo> vuelos;
 
-    public Aeropuerto(int id, String nombre, String codigo, String ciudad, String pais) {
+    public Aeropuerto(int id, String nombre, String codigo, String ciudad, String pais, Ubicacion ubicacion) {
         this.id = id;
         this.nombre = nombre;
         this.codigo = codigo;
         this.ciudad = ciudad;
         this.pais = pais;
+        this.ubicacion = ubicacion;
         this.vuelos = new LinkedList<>();
     }
 
@@ -39,6 +41,10 @@ public class Aeropuerto {
     public String getPais() {
         return pais;
     }
+
+    public Ubicacion getUbicacion(){
+        return ubicacion;
+    };
 
     public List<Vuelo> getVuelos() {
         return vuelos;

@@ -46,6 +46,9 @@
             android:value="AIzaSyDBTiz3mezrFSGW_dOq8iNOuvmkcozgRjI" />
 
         <activity
+            android:name="com.example.proyecto_ed.VentanaMapa"
+            android:exported="true" />
+        <activity
             android:name="com.example.proyecto_ed.MenuAdmin"
             android:exported="true" />
         <activity

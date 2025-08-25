@@ -3143,6 +3143,7 @@ drawable ic_search_black_24
 drawable icono_cancelar_vuelo_sin_fondo
 drawable img
 drawable img_1
+drawable img_admin
 drawable img_avion
 drawable img_logo1
 drawable imgfondo
@@ -3493,7 +3494,6 @@ id ignore
 id ignoreRequest
 id image
 id imgLogo
-id imgadmin
 id imgfondoavion
 id immediateStop
 id included

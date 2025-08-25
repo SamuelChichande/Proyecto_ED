@@ -7,14 +7,9 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 public class GraphManager<Aeropuerto, E> {
-    // Instancia única del Singleton
     private static GraphManager instance;
-
-    // El grafo que gestionaremos
     private Graph<Aeropuerto, E> graph;
     private Comparator<Aeropuerto> comparator;
-
-    // Constructor privado para evitar instanciación externa
     private GraphManager(Comparator<Aeropuerto> comparator) {
         this.comparator = comparator;
         this.graph = new Graph<>(comparator);

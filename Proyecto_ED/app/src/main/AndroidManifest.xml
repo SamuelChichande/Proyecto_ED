@@ -19,7 +19,9 @@
             android:value="AIzaSyDBTiz3mezrFSGW_dOq8iNOuvmkcozgRjI"
             />
 
-
+        <activity
+            android:name=".VentanaMapa"
+            android:exported="true" />
         <activity
             android:name=".MenuAdmin"
             android:exported="true" />

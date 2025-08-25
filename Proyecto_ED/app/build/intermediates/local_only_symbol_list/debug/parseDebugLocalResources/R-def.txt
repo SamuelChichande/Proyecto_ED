@@ -28,6 +28,7 @@ drawable ic_launcher_foreground
 drawable icono_cancelar_vuelo_sin_fondo
 drawable img
 drawable img_1
+drawable img_admin
 drawable img_avion
 drawable img_logo1
 drawable imgfondo
@@ -69,7 +70,6 @@ id correo
 id header
 id idtext
 id imgLogo
-id imgadmin
 id imgfondoavion
 id lv_Vuelos
 id main
