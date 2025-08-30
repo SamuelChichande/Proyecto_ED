@@ -1,6 +1,8 @@
 package com.example.proyecto_ed;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,20 @@ public class MenuAdmin extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void viewAgregarVuelo(View view){
+        Intent intent = new Intent(this, MenuInicio.class);
+        startActivity(intent);
+    }
+
+    public void viewModificarVuelo(View view){
+        Intent intent = new Intent(this, MenuInicio.class);
+        startActivity(intent);
+    }
+
+    public void viewEliminarVuelo(View view){
+        Intent intent = new Intent(this, MenuInicio.class);
+        startActivity(intent);
     }
 }

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
+        /*
         //MAPA
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
             });
         }
-
-
+        */
 
     }
 }

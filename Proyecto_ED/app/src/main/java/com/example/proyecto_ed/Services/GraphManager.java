@@ -1,10 +1,8 @@
 package com.example.proyecto_ed.Services;
 
-import com.example.proyecto_ed.Models.Graph;
-import com.example.proyecto_ed.Models.VertexAeropuerto;
+import com.example.proyecto_ed.Td.Graph;
 
 import java.util.Comparator;
-import java.util.LinkedList;
 
 public class GraphManager<Aeropuerto, E> {
     private static GraphManager instance;

@@ -9,7 +9,8 @@ public abstract class Usuario {
     protected String contraseña;
     protected boolean isAdmin;
 
-    public Usuario(String nombre, String apellido, String cedula, String usuario, String contraseña) {
+    public Usuario(int idUser, String nombre, String apellido, String cedula, String usuario, String contraseña) {
+        this.idUser = idUser;
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
@@ -31,6 +32,14 @@ public abstract class Usuario {
 
     public String getCedula() {
         return cedula;
+    }
+
+    public String getUsuario(){
+        return usuario;
+    }
+
+    public String getContraseña(){
+        return contraseña;
     }
 
     public boolean isAdmin() {

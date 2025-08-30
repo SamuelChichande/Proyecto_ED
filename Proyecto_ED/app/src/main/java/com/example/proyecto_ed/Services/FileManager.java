@@ -37,31 +37,12 @@ public class FileManager {
         return lineas;
     }
 
-    public static void escribirLinea(Context context, String fileName, String datosSinId) {
+    public static void escribirLinea(Context context, String fileName, String datos) {
         try {
             // Leemos el archivo actual
             List<String> lineas = leerArchivo(context, fileName);
 
-            // Buscar ID máximo actual
-            int maxId = 0;
-            for (String linea : lineas) {
-                String[] parts = linea.split(",");
-                if (parts.length > 0) {
-                    try {
-                        int id = Integer.parseInt(parts[0]);
-                        if (id > maxId) {
-                            maxId = id;
-                        }
-                    } catch (NumberFormatException ignored) {}
-                }
-            }
-
-            // Generar nuevo ID
-            int nuevoId = maxId + 1;
-
-            // Crear nueva línea con ID
-            String nuevaLinea = nuevoId + "," + datosSinId;
-            lineas.add(nuevaLinea);
+            lineas.add(datos);
 
             // Reescribir el archivo
             FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_PRIVATE);

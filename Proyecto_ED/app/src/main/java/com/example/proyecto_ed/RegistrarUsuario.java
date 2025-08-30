@@ -11,8 +11,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyecto_ed.Models.Cliente;
+import com.example.proyecto_ed.Models.Usuario;
 import com.example.proyecto_ed.Services.FileManager;
+import com.example.proyecto_ed.Services.GestorUsuarios;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.Iterator;
@@ -20,9 +24,10 @@ import java.util.List;
 
 public class RegistrarUsuario extends AppCompatActivity {
 
-    private TextInputLayout nombre, apellido, identificacion, usuario, contraseña;
+    private final GestorUsuarios gestorUsuarios = GestorUsuarios.getInstance();
+    private final String FILE_NAME_USUARIO = "Usuarios.txt";
+    private TextInputEditText nombre, apellido, identificacion, usuario, contraseña;
     private MaterialButton btnRegistrarse;
-    private static final String FILE_NAME = "usuarios.txt";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +39,7 @@ public class RegistrarUsuario extends AppCompatActivity {
             return insets;
         });
 
+
         nombre = findViewById(R.id.nombre);
         apellido = findViewById(R.id.apellido);
         identificacion = findViewById(R.id.cedula);
@@ -41,18 +47,24 @@ public class RegistrarUsuario extends AppCompatActivity {
         contraseña = findViewById(R.id.contraseñaRegistro);
         btnRegistrarse = findViewById(R.id.btnRegistrarUsuario);
 
+
         btnRegistrarse.setOnClickListener(v -> {
-            String name = nombre.getEditText().getText().toString();
-            String lastName = apellido.getEditText().getText().toString();
-            String ID = identificacion.getEditText().getText().toString();
-            String user = usuario.getEditText().getText().toString();
-            String pass = contraseña.getEditText().getText().toString();
-            if (validarUsuarioExistente(user)){
-                Toast.makeText(this, "El usuario ya existe", Toast.LENGTH_SHORT).show();
+            String name = nombre.getText().toString().trim();
+            String lastName = apellido.getText().toString().trim();
+            String ID = identificacion.getText().toString().trim();
+            String user = usuario.getText().toString().trim();
+            String pass = contraseña.getText().toString().trim();
+
+            if (validarUsuarioExistente(user, ID)){
+                Toast.makeText(this, "Ya existe una cuenta con ese usuario o cedula", Toast.LENGTH_SHORT).show();
             } else {
-                guardarUsuario(name, lastName, ID, user, pass);
-                Intent intent = new Intent(this, InicioSesion.class);
-                startActivity(intent);
+                if (guardarUsuario(name, lastName, ID, user, pass)){
+                    Toast.makeText(this, "Usuario registrado de manera exitosa", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(this, InicioSesion.class);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(this, "Complete los datos correctamente", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -64,25 +76,28 @@ public class RegistrarUsuario extends AppCompatActivity {
                 contraseña == null || contraseña.isEmpty()){
             return false;
         } else {
-            String cadena = nombre+apellido+identificacion+usuario+contraseña+"false";
-            FileManager.escribirLinea(this, FILE_NAME, cadena);
+            int lastID = gestorUsuarios.getLastID()+1;
+            Usuario user = new Cliente(lastID, nombre, apellido, identificacion, usuario, contraseña);
+            gestorUsuarios.agregarUsuario(user);
+
+            String cadena = lastID+","+nombre+","+apellido+","+identificacion+","+usuario+
+                    ","+contraseña+",false";
+            FileManager.escribirLinea(this, FILE_NAME_USUARIO, cadena);
+
             return true;
         }
     }
 
-    private boolean validarUsuarioExistente(String user){
-        if (user == null || user.isEmpty()) return false;
-        List<String> cadenas = FileManager.leerArchivo(this, FILE_NAME);
-        if (cadenas != null){
-            Iterator<String> it = cadenas.iterator();
-            while (it.hasNext()){
-                String c = it.next();
-                String[] componentes = c.split(",");
-                if (componentes[4].equals(user)){
-                    return true;
-                }
+    private boolean validarUsuarioExistente(String user, String ID){
+        if (user == null || user.isEmpty() || ID == null || ID.isEmpty()) return false;
+
+        for (Usuario usuario: gestorUsuarios.getUsuarios()){
+            if (usuario.getUsuario().equals(user) || usuario.getCedula().equals(ID)){
+                return true;
             }
         }
+
         return false;
     }
+
 }

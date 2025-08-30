@@ -2,6 +2,7 @@ package com.example.proyecto_ed;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +12,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MenuCliente extends AppCompatActivity {
-    private CardView reservar, cancelar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +23,15 @@ public class MenuCliente extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
 
-        reservar = findViewById(R.id.cardReservar);
-        cancelar = findViewById(R.id.cardCancelar);
+    public void viewReservarVuelo(View view){
+        Intent intent = new Intent(this, ReservaVuelo.class);
+        startActivity(intent);
+    }
 
-        reservar.setOnClickListener(v -> {
-            Intent intent = new Intent(this, ReservaVuelo.class);
-            startActivity(intent);
-        });
+    public void viewCancelarVuelo(View view){
+        Intent intent = new Intent(this, MenuInicio.class);
+        startActivity(intent);
     }
 }

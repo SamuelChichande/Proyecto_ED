@@ -97,6 +97,7 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
+                android:onClick="viewReservarVuelo"
                 app:cardBackgroundColor="#EF7749"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="8dp">
@@ -136,6 +137,7 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
+                android:onClick="viewCancelarVuelo"
                 android:outlineAmbientShadowColor="#0B0B0B"
                 app:cardBackgroundColor="#7EA6CC"
                 app:cardCornerRadius="10dp"

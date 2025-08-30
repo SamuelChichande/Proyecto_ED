@@ -120,6 +120,7 @@
                     android:focusable="true"
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
+                    android:onClick="viewAgregarVuelo"
                     android:orientation="vertical"
                     android:padding="12dp">
 
@@ -151,6 +152,7 @@
                     android:focusable="true"
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
+                    android:onClick="viewModificarVuelo"
                     android:orientation="vertical"
                     android:padding="12dp">
 
@@ -188,6 +190,7 @@
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
                 android:gravity="center"
+                android:onClick="viewEliminarVuelo"
                 android:orientation="vertical"
                 android:padding="12dp">
 

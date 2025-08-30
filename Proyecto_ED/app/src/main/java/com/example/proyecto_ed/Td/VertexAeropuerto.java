@@ -1,0 +1,21 @@
+package com.example.proyecto_ed.Td;
+
+import java.util.LinkedList;
+
+public class VertexAeropuerto<Aeropuerto, E> {
+    private Aeropuerto content;
+    private LinkedList<EdgeVuelo<E, Aeropuerto>> edgesVuelos;
+
+    public VertexAeropuerto(Aeropuerto content) {
+        this.content = content;
+        this.edgesVuelos = new LinkedList<>();
+    }
+
+    public Aeropuerto getContent() {
+        return content;
+    }
+
+    public LinkedList<EdgeVuelo<E, Aeropuerto>> getEdgesVuelos() {
+        return edgesVuelos;
+    }
+}
