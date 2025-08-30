@@ -12,7 +12,9 @@ color white
 drawable agregar
 drawable avion_despegando
 drawable avionfondo
+drawable background_vuelos_reservados
 drawable baseline_account_circle_24
+drawable cancelar
 drawable cliente_background
 drawable color_text
 drawable contra
@@ -23,6 +25,7 @@ drawable eliminar
 drawable fondo_inicio
 drawable fondo_registro
 drawable fondo_reserva
+drawable fondo_ventana_cancelar_vueo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icono_cancelar_vuelo_sin_fondo
@@ -75,9 +78,11 @@ id header
 id idtext
 id imgLogo
 id imgfondoavion
+id linearLayout
 id lv_Vuelos
 id main
 id map
+id materialButton
 id nombre
 id singUp
 id sp_Destino
@@ -88,6 +93,8 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
+id textView6
 id tileFlights
 id tilesSection
 id txtAeropuerto
@@ -103,10 +110,12 @@ layout activity_reserva_vuelo
 layout activity_ventana_estadistica
 layout inicio_sesion
 layout registro_usuario
+layout ventana_cancelar_vuelo
 layout ventana_mapa
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw admin
+raw aeropuerto
 raw air
 raw airplane
 raw back

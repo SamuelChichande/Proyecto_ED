@@ -38,6 +38,8 @@
         <activity
             android:name=".RegistrarUsuario"
             android:exported="true" />
+        <activity android:name=".VentanaCancelarVuelo"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
