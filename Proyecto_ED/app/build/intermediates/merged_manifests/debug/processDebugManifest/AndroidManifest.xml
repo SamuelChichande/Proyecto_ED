@@ -68,6 +68,9 @@
             android:name="com.example.proyecto_ed.RegistrarUsuario"
             android:exported="true" />
         <activity
+            android:name="com.example.proyecto_ed.VentanaCancelarVuelo"
+            android:exported="true" />
+        <activity
             android:name="com.example.proyecto_ed.MainActivity"
             android:exported="true" >
             <intent-filter>

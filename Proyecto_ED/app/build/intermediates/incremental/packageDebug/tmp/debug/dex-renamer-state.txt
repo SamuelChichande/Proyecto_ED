@@ -1,10 +1,10 @@
-#Fri Aug 29 21:23:42 ECT 2025
-base.0=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.4=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.5=C\:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Sat Aug 30 18:01:38 ECT 2025
+base.0=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.4=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.5=C\:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex
