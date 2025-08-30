@@ -41,6 +41,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_ED" >
+        <activity
+            android:name="com.example.proyecto_ed.VentanaEstadistica"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDBTiz3mezrFSGW_dOq8iNOuvmkcozgRjI" />

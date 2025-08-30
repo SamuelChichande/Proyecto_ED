@@ -3145,7 +3145,9 @@ drawable img
 drawable img_1
 drawable img_admin
 drawable img_avion
+drawable img_estadisticalogo
 drawable img_logo1
+drawable img_volver
 drawable imgfondo
 drawable imglogoo
 drawable indeterminate_static
@@ -3348,10 +3350,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
 id btn_reservarVuelo
+id buttonEstadistica
 id buttonPanel
 id buttonagregar
 id buttoneliminar
@@ -3773,7 +3777,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAeropuerto
+id txtConexiones
 id txtMeta
+id txtRuta
 id txtWelcome
 id unchecked
 id uniform
@@ -3920,6 +3927,7 @@ layout activity_main
 layout activity_menu_admin
 layout activity_menu_inicio
 layout activity_reserva_vuelo
+layout activity_ventana_estadistica
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
