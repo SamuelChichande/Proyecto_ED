@@ -116,7 +116,7 @@
         android:padding="12dp">
 
         <TextView
-            android:id="@+id/txtAeropuerto"
+            android:id="@+id/txtAeropuerto2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
