@@ -21,6 +21,9 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final LinearLayout buttonEstadistica;
+
+  @NonNull
   public final LinearLayout buttonagregar;
 
   @NonNull
@@ -48,11 +51,13 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
   public final LinearLayout tilesSection;
 
   private ActivityMenuAdminBinding(@NonNull FrameLayout rootView,
-      @NonNull LinearLayout buttonagregar, @NonNull LinearLayout buttoneliminar,
-      @NonNull LinearLayout buttonmodificar, @NonNull LinearLayout content,
-      @NonNull LinearLayout header, @NonNull ImageView imgLogo, @NonNull ImageView imgfondoavion,
-      @NonNull FrameLayout main, @NonNull LinearLayout tilesSection) {
+      @NonNull LinearLayout buttonEstadistica, @NonNull LinearLayout buttonagregar,
+      @NonNull LinearLayout buttoneliminar, @NonNull LinearLayout buttonmodificar,
+      @NonNull LinearLayout content, @NonNull LinearLayout header, @NonNull ImageView imgLogo,
+      @NonNull ImageView imgfondoavion, @NonNull FrameLayout main,
+      @NonNull LinearLayout tilesSection) {
     this.rootView = rootView;
+    this.buttonEstadistica = buttonEstadistica;
     this.buttonagregar = buttonagregar;
     this.buttoneliminar = buttoneliminar;
     this.buttonmodificar = buttonmodificar;
@@ -91,6 +96,12 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.buttonEstadistica;
+      LinearLayout buttonEstadistica = ViewBindings.findChildViewById(rootView, id);
+      if (buttonEstadistica == null) {
+        break missingId;
+      }
+
       id = R.id.buttonagregar;
       LinearLayout buttonagregar = ViewBindings.findChildViewById(rootView, id);
       if (buttonagregar == null) {
@@ -141,8 +152,9 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMenuAdminBinding((FrameLayout) rootView, buttonagregar, buttoneliminar,
-          buttonmodificar, content, header, imgLogo, imgfondoavion, main, tilesSection);
+      return new ActivityMenuAdminBinding((FrameLayout) rootView, buttonEstadistica, buttonagregar,
+          buttoneliminar, buttonmodificar, content, header, imgLogo, imgfondoavion, main,
+          tilesSection);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

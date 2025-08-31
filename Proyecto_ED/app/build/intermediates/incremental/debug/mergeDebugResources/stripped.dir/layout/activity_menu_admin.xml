@@ -128,7 +128,7 @@
                         android:layout_width="56dp"
                         android:layout_height="56dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/agregar" />
+                        android:src="@drawable/agregarvuelo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -181,34 +181,76 @@
                 android:layout_weight="0" />
 
             <LinearLayout
-                android:id="@+id/buttoneliminar"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/titulo_vuelos"
-                android:clickable="true"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackground"
-                android:gravity="center"
-                android:onClick="viewEliminarVuelo"
-                android:orientation="vertical"
-                android:padding="12dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="12dp">
 
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/eliminar" />
+                <LinearLayout
+                    android:id="@+id/buttoneliminar"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/titulo_vuelos"
+                    android:clickable="true"
+                    android:onClick="viewEliminarVuelo"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/fuente5"
-                    android:text="Eliminar"
-                    android:textColor="@color/white"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/eliminar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/fuente5"
+                        android:text="Eliminar"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/buttonEstadistica"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/titulo_vuelos"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="viewEstadistica"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/img_estadisticalogo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/fuente5"
+                        android:text="Estadisticas"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
