@@ -20,9 +20,11 @@ import com.example.proyecto_ed.Models.Cliente;
 import com.example.proyecto_ed.Models.ReservarVuelo;
 import com.example.proyecto_ed.Models.Usuario;
 import com.example.proyecto_ed.Models.Vuelo;
+import com.example.proyecto_ed.Services.FileManager;
 import com.example.proyecto_ed.Services.GestorAeropuertos;
 import com.example.proyecto_ed.Services.GestorVuelos;
 import com.example.proyecto_ed.Services.GraphManager;
+import com.example.proyecto_ed.Services.ReservarManager;
 import com.example.proyecto_ed.Td.TDA_GRAFO.VertexAeropuerto;
 import com.google.android.material.button.MaterialButton;
 
@@ -37,6 +39,8 @@ public class ReservaVuelo extends AppCompatActivity {
     private final GestorAeropuertos gestorAeropuertos = GestorAeropuertos.getInstance();
     private final GraphManager graphManager = GraphManager.getInstance(null);
     private final GestorVuelos gestorVuelos = GestorVuelos.getInstance();
+    private final ReservarManager reservarManager = ReservarManager.getInstance();
+    private final String FILE_NAME_RESERVAS = "Reservas.txt";
     private Usuario user;
     private List<Vuelo> vueloList = new ArrayList<>();
     private String origen;  //Pais-CodigoAeropuerto
@@ -66,13 +70,29 @@ public class ReservaVuelo extends AppCompatActivity {
 
         reservarVuelo.setOnClickListener(v -> {
             Cliente c = (Cliente) user;
+
             int id = 0;
             List<ReservarVuelo> rv = c.getReservas();
             if (rv.size() > 0){
                 id = rv.get(rv.size() - 1).getId();
             }
-            ReservarVuelo reservarVuelo = new ReservarVuelo(id,user,vueloList);
+
+            ReservarVuelo reservarVuelo = new ReservarVuelo(
+                    id,user.getIdUser(), user.getUsuario(),vueloList);
             c.reservarVuelo(reservarVuelo);
+
+            reservarManager.agregarReserva(reservarVuelo);
+
+            String cadena = reservarVuelo.getId()+","+reservarVuelo.getIdUser()+","+
+                    reservarVuelo.getNameUser()+",";
+            String idVuelos = "";
+            for (Vuelo vuelo: reservarVuelo.getVuelos()){
+                idVuelos += "-"+vuelo.getId();
+            }
+            cadena += idVuelos.substring(1);
+
+            FileManager.escribirLinea(this, FILE_NAME_RESERVAS, cadena);
+
             Toast.makeText(this, "Se ha guardado su reserva con exito", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(this, MenuCliente.class);
             startActivity(i);

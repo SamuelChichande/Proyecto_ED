@@ -16,6 +16,7 @@ import com.example.proyecto_ed.Services.GestorAeropuertos;
 import com.example.proyecto_ed.Services.GestorUsuarios;
 import com.example.proyecto_ed.Services.GestorVuelos;
 import com.example.proyecto_ed.Services.GraphManager;
+import com.example.proyecto_ed.Services.ReservarManager;
 
 import java.util.Comparator;
 
@@ -36,6 +37,7 @@ public class MenuInicio extends AppCompatActivity {
         GestorAeropuertos gestorAeropuertos = GestorAeropuertos.getInstance();
         GestorVuelos gestorVuelos = GestorVuelos.getInstance();
         GestorUsuarios gestorUsuarios = GestorUsuarios.getInstance();
+        ReservarManager reservarManager = ReservarManager.getInstance();
 
         Comparator<String> cmp = new Comparator<String>() {
             @Override
@@ -52,6 +54,7 @@ public class MenuInicio extends AppCompatActivity {
         gestorAeropuertos.cargarAeropuerto(this);
         gestorVuelos.cargarVuelos(this);
         gestorUsuarios.cargarUsuarios(this);
+        reservarManager.cargarReservas(this);
 
         for (Aeropuerto aeropuerto: gestorAeropuertos.getAeropuertos()){
             graphManager.actualizarListaVertices(aeropuerto);

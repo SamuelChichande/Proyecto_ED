@@ -5,7 +5,6 @@ import android.widget.Toast;
 
 import com.example.proyecto_ed.Models.Vuelo;
 
-import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeParseException;
