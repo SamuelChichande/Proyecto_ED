@@ -3071,6 +3071,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable agregar
+drawable agregarvuelo
 drawable avd_hide_password
 drawable avd_show_password
 drawable avion_despegando
@@ -3110,6 +3111,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable contra
 drawable custom_input
 drawable custom_input2
+drawable custom_input3
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3120,6 +3122,7 @@ drawable eliminar
 drawable fondo_inicio
 drawable fondo_registro
 drawable fondo_reserva
+drawable fondo_ventana_agregar_eliminar
 drawable fondo_ventana_cancelar_vueo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3250,6 +3253,10 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Fllegada
+id Fsalida
+id HoraLlegada
+id HoraSalida
 id META
 id NO_DEBUG
 id SHIFT
@@ -3320,6 +3327,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id aerolinea
 id alertTitle
 id aligned
 id all
@@ -3333,6 +3341,7 @@ id anticipate
 id apellido
 id arc
 id asConfigured
+id asientosDisp
 id async
 id auto
 id autoComplete
@@ -3348,6 +3357,7 @@ id below
 id bestChoice
 id bgImage
 id blocking
+id botonEliminar
 id bottom
 id bounce
 id bounceBoth
@@ -3366,6 +3376,7 @@ id buttonmodificar
 id cache_measures
 id callMeasure
 id cancel_button
+id capacidad
 id cardCancelar
 id cardReservar
 id carryVelocity
@@ -3420,6 +3431,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id destino
 id dialog_button
 id dimensions
 id direct
@@ -3429,6 +3441,7 @@ id disablePostScroll
 id disableScroll
 id disabled
 id disjoint
+id distancia
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3534,6 +3547,7 @@ id masked
 id match_constraint
 id match_parent
 id materialButton
+id materialButton2
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3625,6 +3639,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id origen
 id outline
 id outward
 id overshoot
@@ -3642,6 +3657,7 @@ id percent
 id pin
 id position
 id postLayout
+id precio
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3749,11 +3765,24 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
+id textView12
+id textView13
+id textView14
+id textView15
+id textView16
+id textView17
+id textView18
+id textView19
 id textView2
+id textView20
 id textView3
 id textView4
 id textView5
 id textView6
+id textView7
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3794,6 +3823,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id ventanaAgregar
 id vertical
 id vertical_only
 id view_offset_helper
@@ -4016,6 +4046,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
 mipmap ic_launcher
@@ -4031,6 +4062,7 @@ raw created
 raw fondoadmin
 raw fondoavion
 raw login
+raw mundo
 raw perfil
 raw register
 raw registersection

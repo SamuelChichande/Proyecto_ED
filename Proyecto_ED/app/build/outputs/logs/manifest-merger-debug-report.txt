@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Asus\.gradle\caches\8.11.1\transforms\32941b7b6ef2bfcee6eac320b137a9b7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Asus\.gradle\caches\8.11.1\transforms\6aa5248996072b6e04a94238cc50d99d\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.airbnb.android:lottie:6.6.7] C:\Users\Asus\.gradle\caches\8.11.1\transforms\9a1697f8e79fdeb56c6d69d773545640\transformed\lottie-6.6.7\AndroidManifest.xml:2:1-9:12
@@ -61,8 +61,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Asus\.g
 	xmlns:android
 		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:5:5-55:19
-INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:5:5-55:19
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:5:5-57:19
+INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:5:5-57:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Asus\.gradle\caches\8.11.1\transforms\32941b7b6ef2bfcee6eac320b137a9b7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Asus\.gradle\caches\8.11.1\transforms\32941b7b6ef2bfcee6eac320b137a9b7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Asus\.gradle\caches\8.11.1\transforms\6aa5248996072b6e04a94238cc50d99d\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -165,28 +165,34 @@ ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidMa
 		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:42:13-36
 	android:name
 		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:41:19-55
+activity#com.example.proyecto_ed.VentanaAgregarEliminarVuelo
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:43:9-44:38
+	android:exported
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:43:19-62
 activity#com.example.proyecto_ed.MainActivity
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:43:9-51:20
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:45:9-53:20
 	android:exported
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:44:13-41
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:46:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:46:13-50:29
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:47:17-69
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:47:25-66
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:49:17-77
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:49:27-74
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:51:27-74
 activity#com.example.proyecto_ed.ReservaVuelo
-ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:52:9-54:39
+ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:54:9-56:39
 	android:exported
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:56:13-36
 	android:name
-		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:53:13-41
+		ADDED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml:55:13-41
 uses-sdk
 INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Escritorio\ProyectoEstructurass\Proyecto_ED\app\src\main\AndroidManifest.xml
