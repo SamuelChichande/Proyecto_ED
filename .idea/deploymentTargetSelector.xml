@@ -50,9 +50,6 @@
       <SelectionState runConfigName="VentanaCancelarVuelo">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="VentanaAgregarEliminarVuelo">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
     </selectionStates>
   </component>
 </project>

@@ -37,14 +37,14 @@ public class FileManager {
         return lineas;
     }
 
+
     public static void escribirLinea(Context context, String fileName, String datos) {
+        /*
         try {
-            // Leemos el archivo actual
             List<String> lineas = leerArchivo(context, fileName);
 
             lineas.add(datos);
 
-            // Reescribir el archivo
             FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_PRIVATE);
             OutputStreamWriter writer = new OutputStreamWriter(fos);
             for (String l : lineas) {
@@ -53,6 +53,30 @@ public class FileManager {
             writer.close();
             fos.close();
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        */
+        try {
+            FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_APPEND);
+            OutputStreamWriter writer = new OutputStreamWriter(fos);
+            writer.write(datos + "\n");
+            writer.close();
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void sobreescribir(Context context, String fileName, List<String> datos) {
+        try {
+            FileOutputStream fos = context.openFileOutput(fileName, context.MODE_PRIVATE);
+            OutputStreamWriter writer = new OutputStreamWriter(fos);
+            for (String l : datos) {
+                writer.write(l + "\n");
+            }
+            writer.close();
+            fos.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

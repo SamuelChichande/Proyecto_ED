@@ -37,7 +37,8 @@ public class MenuCliente extends AppCompatActivity {
     }
 
     public void viewCancelarVuelo(View view){
-        Intent intent = new Intent(this, MenuInicio.class);
+        Intent intent = new Intent(this, VentanaCancelarVuelo.class);
+        intent.putExtra("Usuario",user);
         startActivity(intent);
     }
 }
