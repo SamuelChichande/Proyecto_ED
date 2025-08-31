@@ -3132,6 +3132,7 @@ int drawable btn_radio_off_mtrl 0x7f070084
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070085
 int drawable btn_radio_on_mtrl 0x7f070086
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070087
+int drawable button_background 0x7f070125
 int drawable cancelar 0x7f070088
 int drawable cliente_background 0x7f070089
 int drawable color_text 0x7f07008a
@@ -3170,6 +3171,7 @@ int drawable fondo_registro 0x7f0700aa
 int drawable fondo_reserva 0x7f0700ab
 int drawable fondo_ventana_agregar_eliminar 0x7f0700ac
 int drawable fondo_ventana_cancelar_vueo 0x7f0700ad
+int drawable fondo_ventana_modificar 0x7f070126
 int drawable googleg_disabled_color_18 0x7f0700ae
 int drawable googleg_standard_color_18 0x7f0700af
 int drawable ic_arrow_back_black_24 0x7f0700b0
@@ -3288,6 +3290,7 @@ int drawable tooltip_frame_dark 0x7f070120
 int drawable tooltip_frame_light 0x7f070121
 int drawable twotone_attach_email_24 0x7f070122
 int drawable user 0x7f070123
+int drawable ventanita_modificar 0x7f070127
 int drawable volver 0x7f070124
 int font fuente1 0x7f080000
 int font fuente2 0x7f080001
@@ -3625,6 +3628,7 @@ int id matrix 0x7f090147
 int id message 0x7f090148
 int id middle 0x7f090149
 int id mini 0x7f09014a
+int id modificar 0x7f090263
 int id month_grid 0x7f09014b
 int id month_navigation_bar 0x7f09014c
 int id month_navigation_fragment_toggle 0x7f09014d
@@ -3836,11 +3840,13 @@ int id textView18 0x7f09021a
 int id textView19 0x7f09021b
 int id textView2 0x7f09021c
 int id textView20 0x7f09021d
+int id textView21 0x7f090264
 int id textView3 0x7f09021e
 int id textView4 0x7f09021f
 int id textView5 0x7f090220
 int id textView6 0x7f090221
 int id textView7 0x7f090222
+int id textView8 0x7f090265
 int id textView9 0x7f090223
 int id text_input_end_icon 0x7f090224
 int id text_input_error_icon 0x7f090225
@@ -4112,6 +4118,7 @@ int layout support_simple_spinner_dropdown_item 0x7f0c0073
 int layout ventana_agregar_eliminar_admin 0x7f0c0074
 int layout ventana_cancelar_vuelo 0x7f0c0075
 int layout ventana_mapa 0x7f0c0076
+int layout ventana_modificar 0x7f0c0077
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int navigation nav_graph 0x7f0f0000
@@ -4126,6 +4133,7 @@ int raw created 0x7f110006
 int raw fondoadmin 0x7f110007
 int raw fondoavion 0x7f110008
 int raw login 0x7f110009
+int raw modificacion 0x7f11000e
 int raw mundo 0x7f11000a
 int raw perfil 0x7f11000b
 int raw register 0x7f11000c

@@ -3133,6 +3133,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable cancelar
 drawable cliente_background
 drawable color_text
@@ -3171,6 +3172,7 @@ drawable fondo_registro
 drawable fondo_reserva
 drawable fondo_ventana_agregar_eliminar
 drawable fondo_ventana_cancelar_vueo
+drawable fondo_ventana_modificar
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -3289,6 +3291,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twotone_attach_email_24
 drawable user
+drawable ventanita_modificar
 drawable volver
 font fuente1
 font fuente2
@@ -3626,6 +3629,7 @@ id matrix
 id message
 id middle
 id mini
+id modificar
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3837,11 +3841,13 @@ id textView18
 id textView19
 id textView2
 id textView20
+id textView21
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id text_input_end_icon
 id text_input_error_icon
@@ -4113,6 +4119,7 @@ layout support_simple_spinner_dropdown_item
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -4127,6 +4134,7 @@ raw created
 raw fondoadmin
 raw fondoavion
 raw login
+raw modificacion
 raw mundo
 raw perfil
 raw register
