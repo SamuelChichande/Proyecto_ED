@@ -5,11 +5,6 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/agregar.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/avion_despegando.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
@@ -21,11 +16,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/baseline_account_circle_24.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/button_background.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
@@ -45,11 +35,6 @@
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/custom_input3.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_inicio.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
@@ -65,17 +50,7 @@
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_ventana_agregar_eliminar.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_ventana_cancelar_vueo.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/fondo_ventana_modificar.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
@@ -111,11 +86,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/user.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/drawable/ventanita_modificar.xml">
         <config>
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
@@ -185,11 +155,6 @@
           <theme>@style/Theme.Proyecto_ED</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/ventana_modificar.xml">
-        <config>
-          <theme>@style/Theme.Proyecto_ED</theme>
-        </config>
-      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -197,13 +162,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="ventana modificarVuelo - casi terminada">
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/ventana_seleccion_vuelo_modificar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/ventana_modificacion_vuelo_seleccionado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/ventana_modificacion_vuelo_seleccionado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_ventana_estadistica.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/res/layout/activity_ventana_estadistica.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +177,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Asus\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Cesar Moreira\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Proyecto_ED">
       <ProjectState />
@@ -262,7 +226,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SamuelChichande/Proyecto_ED.git&quot;,
-    &quot;accountId&quot;: &quot;017f3200-3f76-4d6d-b077-d12623cc62d2&quot;
+    &quot;accountId&quot;: &quot;ffab4756-0ef1-4c6f-8079-b1776280097f&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -308,7 +272,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "ventana__modificar",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Cesar Moreira/StudioProjects/Proyecto_ED/Proyecto_ED/app/src/main/res/drawable"
   }
 }]]></component>
