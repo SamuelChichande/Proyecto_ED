@@ -4,26 +4,20 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Aeropuerto {
-    private int id;
-    private String nombre;
     private String codigo;
+    private String nombre;
     private String ciudad;
     private String pais;
     private Ubicacion ubicacion;
     private List<Vuelo> vuelos;
 
-    public Aeropuerto(int id, String nombre, String codigo, String ciudad, String pais, Ubicacion ubicacion) {
-        this.id = id;
+    public Aeropuerto(String codigo, String nombre, String ciudad, String pais, Ubicacion ubicacion) {
         this.nombre = nombre;
         this.codigo = codigo;
         this.ciudad = ciudad;
         this.pais = pais;
         this.ubicacion = ubicacion;
         this.vuelos = new LinkedList<>();
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getNombre() {
