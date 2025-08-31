@@ -10,9 +10,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyecto_ed.Models.Aeropuerto;
+import com.example.proyecto_ed.Models.Vuelo;
 import com.example.proyecto_ed.Services.GestorAeropuertos;
 import com.example.proyecto_ed.Services.GestorUsuarios;
 import com.example.proyecto_ed.Services.GestorVuelos;
+import com.example.proyecto_ed.Services.GraphManager;
+
+import java.util.Comparator;
 
 public class MenuInicio extends AppCompatActivity {
 
@@ -32,16 +37,35 @@ public class MenuInicio extends AppCompatActivity {
         GestorVuelos gestorVuelos = GestorVuelos.getInstance();
         GestorUsuarios gestorUsuarios = GestorUsuarios.getInstance();
 
+        Comparator<String> cmp = new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if (o1.equals(o2)){
+                    return 0;
+                } else {
+                    return 1;
+                }
+            }
+        };
+        GraphManager graphManager = GraphManager.getInstance(cmp);
+
         gestorAeropuertos.cargarAeropuerto(this);
         gestorVuelos.cargarVuelos(this);
         gestorUsuarios.cargarUsuarios(this);
 
+        for (Aeropuerto aeropuerto: gestorAeropuertos.getAeropuertos()){
+            graphManager.actualizarListaVertices(aeropuerto);
+        }
+
+        for (Vuelo vuelo: gestorVuelos.getVuelos()){
+            graphManager.agregarConexion(vuelo.getOrigen(), vuelo.getDestino(), vuelo.getDuracion());
+        }
 
     }
 
     public void cambiarVentanaGrafo(View view){
-        //Intent intent = new Intent(this, VentanaMapa.class);
-        Intent intent = new Intent(this, InicioSesion.class);
+        Intent intent = new Intent(this, VentanaMapa.class);
+        //Intent intent = new Intent(this, InicioSesion.class);
         startActivity(intent);
     }
 }

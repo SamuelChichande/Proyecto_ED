@@ -33,11 +33,10 @@ public class GestorAeropuertos {
                 String[] componentes = content.split(",");
 
                 Ubicacion ubicacion = new Ubicacion(
-                        Double.parseDouble(componentes[5]), Double.parseDouble(componentes[6]));
+                        Double.parseDouble(componentes[4]), Double.parseDouble(componentes[5]));
                 Aeropuerto a = new Aeropuerto(
-                        Integer.parseInt(componentes[0]),
-                        componentes[1],componentes[2],
-                        componentes[3],componentes[4],
+                        componentes[0],componentes[1],
+                        componentes[2],componentes[3],
                         ubicacion);
                 agregarAeropuerto(a);
 
@@ -54,24 +53,24 @@ public class GestorAeropuertos {
         aeropuertos.add(a);
     }
 
-    public void eliminarAeropuerto(int id){
-        if (id < 0 || id > aeropuertos.size()) return;
+    public void eliminarAeropuerto(String codigo){
+        if (codigo == null || codigo.isEmpty()) return;
 
         for (Aeropuerto aeropuerto: aeropuertos){
-            if (aeropuerto.getId() == id) aeropuertos.remove(id);
+            if (aeropuerto.getCodigo() == codigo) aeropuertos.removeIf(aeropuerto1 -> aeropuerto1.getCodigo().equals(codigo));
         }
     }
 
-    public void modificarAeropuerto(int id, Aeropuerto aeropuertoModificado){
-        if (id < 0 || id > aeropuertos.size() || aeropuertoModificado == null) return;
+    public void modificarAeropuerto(String codigo, Aeropuerto aeropuertoModificado){
+        if (codigo == null || codigo.isEmpty() || aeropuertoModificado == null) return;
 
-        for (Aeropuerto aeropuerto: aeropuertos){
-            if (aeropuerto.getId() == id) aeropuertos.add(id, aeropuertoModificado);
+        for (int i = 0; i < aeropuertos.size(); i++){
+            if (aeropuertos.get(i).getCodigo() == codigo) aeropuertos.add(i, aeropuertoModificado);
         }
     }
 
-    public int getLastID(){
-        return aeropuertos.getLast().getId();
+    public String getLastID(){
+        return aeropuertos.getLast().getCodigo();
     }
 
     public LinkedList<Aeropuerto> getAeropuertos(){

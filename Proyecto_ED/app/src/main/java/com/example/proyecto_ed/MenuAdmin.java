@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyecto_ed.Models.Usuario;
+
 public class MenuAdmin extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,8 @@ public class MenuAdmin extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Intent intent = getIntent();
+        Usuario user = (Usuario) intent.getSerializableExtra("usuario");
     }
 
     public void viewAgregarVuelo(View view){

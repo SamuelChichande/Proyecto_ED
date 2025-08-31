@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_datos_vuelo.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_datos_vuelo.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_menu_inicio.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_menu_inicio.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/ventana_mapa.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/ventana_mapa.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_reserva_vuelo.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_reserva_vuelo.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_menu_admin.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_menu_admin.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/inicio_sesion.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/inicio_sesion.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/activity_cliente.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/activity_cliente.xml"
+    },
+    {
+        "merged": "com.example.proyecto_ed.app-mergeDebugResources-46:/layout/registro_usuario.xml",
+        "source": "com.example.proyecto_ed.app-main-49:/layout/registro_usuario.xml"
+    }
+]

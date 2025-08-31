@@ -9,6 +9,7 @@ color color5
 color fondo
 color gris
 color white
+dimen fab_margin
 drawable agregar
 drawable avion_despegando
 drawable avionfondo
@@ -49,14 +50,18 @@ font fuente2
 font fuente3
 font fuente4
 font fuente5
+id FirstFragment
+id SecondFragment
 id Usuario
+id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_to_FirstFragment
 id animationView
 id apellido
 id bgImage
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
-id btn_reservarVuelo
+id btn_regresar_viewDatos
 id buttonagregar
 id buttoneliminar
 id buttonmodificar
@@ -74,6 +79,7 @@ id imgfondoavion
 id lv_Vuelos
 id main
 id map
+id nav_graph
 id nombre
 id singUp
 id sp_Destino
@@ -86,9 +92,11 @@ id textView3
 id textView4
 id tileFlights
 id tilesSection
+id tl_DatosVuelos
 id txtMeta
 id txtWelcome
 layout activity_cliente
+layout activity_datos_vuelo
 layout activity_main
 layout activity_menu_admin
 layout activity_menu_inicio
@@ -98,6 +106,7 @@ layout registro_usuario
 layout ventana_mapa
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 raw admin
 raw air
 raw airplane
@@ -111,6 +120,11 @@ raw perfil
 raw register
 raw registersection
 string app_name
+string first_fragment_label
+string lorem_ipsum
+string next
+string previous
+string second_fragment_label
 style Base.Theme.Proyecto_ED
 style Theme.Proyecto_ED
 xml backup_rules

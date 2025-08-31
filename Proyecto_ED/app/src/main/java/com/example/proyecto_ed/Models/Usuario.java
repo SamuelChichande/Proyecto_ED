@@ -1,6 +1,8 @@
 package com.example.proyecto_ed.Models;
 
-public abstract class Usuario {
+import java.io.Serializable;
+
+public abstract class Usuario implements Serializable {
     protected int idUser;
     protected String nombre;
     protected String apellido;

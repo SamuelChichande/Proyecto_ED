@@ -11,7 +11,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyecto_ed.Models.Usuario;
+
 public class MenuCliente extends AppCompatActivity {
+    private Usuario user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +26,13 @@ public class MenuCliente extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Intent intent = getIntent();
+        user = (Usuario) intent.getSerializableExtra("usuario");
     }
 
     public void viewReservarVuelo(View view){
         Intent intent = new Intent(this, ReservaVuelo.class);
+        intent.putExtra("Usuario",user);
         startActivity(intent);
     }
 

@@ -54,8 +54,7 @@ public class InicioSesion extends AppCompatActivity {
                 } else {
                     intent = new Intent(this, MenuCliente.class);
                 }
-
-                //intent.putExtra("usuario",usuario);
+                intent.putExtra("usuario",usuario);
                 startActivity(intent);
             } else {
                 Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show();

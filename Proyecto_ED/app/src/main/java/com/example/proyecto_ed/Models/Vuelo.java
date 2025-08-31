@@ -1,12 +1,13 @@
 package com.example.proyecto_ed.Models;
 
+import java.io.Serializable;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Vuelo {
+public class Vuelo implements Serializable {
     private int id;
     private String origen;
     private String destino;
