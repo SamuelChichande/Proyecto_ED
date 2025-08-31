@@ -128,7 +128,7 @@
                         android:layout_width="56dp"
                         android:layout_height="56dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/agregar" />
+                        android:src="@drawable/agregarvuelo" />
 
                     <TextView
                         android:layout_width="wrap_content"
