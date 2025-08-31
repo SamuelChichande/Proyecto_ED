@@ -13,11 +13,7 @@
         android:theme="@style/Theme.Proyecto_ED"
         tools:targetApi="31">
         <activity
-            android:name=".DatosVuelo"
-            android:exported="false"
-            android:theme="@style/Theme.Proyecto_ED" />
-        <activity
-            android:name=".DatosReservarVuelo"
+            android:name=".VentanaEstadistica"
             android:exported="false" />
 
         <meta-data
@@ -42,6 +38,8 @@
         <activity
             android:name=".RegistrarUsuario"
             android:exported="true" />
+        <activity android:name=".VentanaCancelarVuelo"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

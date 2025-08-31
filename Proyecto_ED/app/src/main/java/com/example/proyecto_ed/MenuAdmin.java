@@ -42,4 +42,8 @@ public class MenuAdmin extends AppCompatActivity {
         Intent intent = new Intent(this, MenuInicio.class);
         startActivity(intent);
     }
+    public void viewEstadistica(View view){
+        Intent intent = new Intent(this, VentanaEstadistica.class);
+        startActivity(intent);
+    }
 }

@@ -42,11 +42,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_ED" >
         <activity
-            android:name="com.example.proyecto_ed.DatosVuelo"
-            android:exported="false"
-            android:theme="@style/Theme.Proyecto_ED" />
-        <activity
-            android:name="com.example.proyecto_ed.DatosReservarVuelo"
+            android:name="com.example.proyecto_ed.VentanaEstadistica"
             android:exported="false" />
 
         <meta-data
@@ -70,6 +66,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.proyecto_ed.RegistrarUsuario"
+            android:exported="true" />
+        <activity
+            android:name="com.example.proyecto_ed.VentanaCancelarVuelo"
             android:exported="true" />
         <activity
             android:name="com.example.proyecto_ed.MainActivity"
@@ -111,13 +110,6 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
