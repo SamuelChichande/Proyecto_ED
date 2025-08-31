@@ -16,6 +16,7 @@ drawable avion_despegando
 drawable avionfondo
 drawable background_vuelos_reservados
 drawable baseline_account_circle_24
+drawable button_background
 drawable cancelar
 drawable cliente_background
 drawable color_text
@@ -30,6 +31,7 @@ drawable fondo_registro
 drawable fondo_reserva
 drawable fondo_ventana_agregar_eliminar
 drawable fondo_ventana_cancelar_vueo
+drawable fondo_ventana_modificar
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icono_cancelar_vuelo_sin_fondo
@@ -52,6 +54,7 @@ drawable tile_bg
 drawable titulo_vuelos
 drawable twotone_attach_email_24
 drawable user
+drawable ventanita_modificar
 drawable volver
 font fuente1
 font fuente2
@@ -102,6 +105,7 @@ id main
 id map
 id materialButton
 id materialButton2
+id modificar
 id nav_graph
 id nombre
 id origen
@@ -124,11 +128,13 @@ id textView18
 id textView19
 id textView2
 id textView20
+id textView21
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id tileFlights
 id tilesSection
@@ -151,6 +157,7 @@ layout registro_usuario
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -164,6 +171,7 @@ raw created
 raw fondoadmin
 raw fondoavion
 raw login
+raw modificacion
 raw mundo
 raw perfil
 raw register

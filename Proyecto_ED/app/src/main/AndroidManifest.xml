@@ -43,6 +43,9 @@
         <activity android:name=".VentanaAgregarEliminarVuelo"
             android:exported="true"/>
         <activity
+            android:name=".VentanaModificar"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
