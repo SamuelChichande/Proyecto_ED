@@ -39,24 +39,6 @@ public class FileManager {
 
 
     public static void escribirLinea(Context context, String fileName, String datos) {
-        /*
-        try {
-            List<String> lineas = leerArchivo(context, fileName);
-
-            lineas.add(datos);
-
-            FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_PRIVATE);
-            OutputStreamWriter writer = new OutputStreamWriter(fos);
-            for (String l : lineas) {
-                writer.write(l + "\n");
-            }
-            writer.close();
-            fos.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        */
         try {
             FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_APPEND);
             OutputStreamWriter writer = new OutputStreamWriter(fos);

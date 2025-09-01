@@ -1,6 +1,7 @@
 package com.example.proyecto_ed.Td.TDA_GRAFO;
 
 import com.example.proyecto_ed.Models.Aeropuerto;
+import com.example.proyecto_ed.Models.Vuelo;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -66,10 +67,18 @@ public class Graph{
         return true;
     }
 
-    public boolean eliminarVuelo(VertexAeropuerto u, VertexAeropuerto v){
-        if (u != null && v != null){
-            u.getEdgesVuelos().removeIf(edgeVuelo -> edgeVuelo.getTarget().equals(v));
-            return true;
+    public boolean eliminarVuelo(String contenido1, String contenido2){
+        if (contenido1 == null || contenido1.isEmpty() || contenido2 == null || contenido2.isEmpty()) return false;
+        for (VertexAeropuerto vertexAeropuerto: vertices) {
+            Aeropuerto aeropuerto = vertexAeropuerto.getContent();
+            if (aeropuerto.getCodigo().equals(contenido1)) {
+                for (Vuelo vuelo: aeropuerto.getVuelos()) {
+                    if (vuelo.getDestino().equals(contenido2)) {
+                        vertexAeropuerto.getContent().getVuelos().remove(vuelo);
+                        return true;
+                    }
+                }
+            }
         }
         return false;
     }
