@@ -14,7 +14,7 @@ import java.util.List;
 public class GestorVuelos {
     private static GestorVuelos instance;
     private LinkedList<Vuelo> vuelos;
-    private static final String NAME_FILE_VUELOS = "vuelos.txt";
+    private static final String NAME_FILE_VUELOS = "Vuelos.txt";
 
     private GestorVuelos(){
         this.vuelos = new LinkedList<>();
@@ -76,12 +76,16 @@ public class GestorVuelos {
         if (id < 0 || id > vuelos.size() || vueloModificado == null) return;
 
         for (Vuelo vuelo: vuelos){
-            if (vuelo.getId() == id) vuelos.add(id, vueloModificado);
+            if (vuelo.getId() == id) vuelos.set(id, vueloModificado);
         }
     }
 
     public int getLastID(){
         return vuelos.getLast().getId();
+    }
+
+    public Vuelo getVuelo(int id){
+        return vuelos.get(id);
     }
 
     public LinkedList<Vuelo> getVuelos(){

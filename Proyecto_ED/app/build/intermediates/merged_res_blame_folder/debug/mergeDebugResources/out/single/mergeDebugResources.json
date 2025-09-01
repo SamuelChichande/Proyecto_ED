@@ -4,96 +4,36 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_air.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\air.json"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_avionfondo.png.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\avionfondo.png"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_agregar_eliminar_admin.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_agregar_eliminar_admin.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_estadisticalogo.png.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_estadisticalogo.png"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_baseline_account_circle_24.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\baseline_account_circle_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_datos_vuelo.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_datos_vuelo.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\font_fuente5.ttf.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\font\\fuente5.ttf"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_mapa.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_mapa.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_volver.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\volver.xml"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_datos_vuelo.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_datos_vuelo.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_ventana_estadistica.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_ventana_estadistica.xml"
     },
     {
-        "merged": "com.example.proyecto_ed.app-debug-4:/drawable_fondo_ventana_modificar.xml.flat",
-        "source": "com.example.proyecto_ed.app-main-6:/drawable/fondo_ventana_modificar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\font_fuente1.ttf.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\font\\fuente1.ttf"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_cancelar.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\cancelar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_fondo_ventana_cancelar_vueo.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_ventana_cancelar_vueo.xml"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_reservation.png.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\reservation.png"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_admin.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_admin.png"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_reservation.png.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\reservation.png"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_password.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_1.png.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_1.png"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_airplane.json.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\airplane.json"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_mundo.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\mundo.json"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_custom_input.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\custom_input.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_agregar.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\agregar.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -104,48 +44,36 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_twotone_attach_email_24.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\twotone_attach_email_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_fondo_registro.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_modificacion.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\modificacion.json"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img.png"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_back.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\back.json"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_login.json.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\login.json"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_perfil.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\perfil.json"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_back.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\back.json"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\font_fuente4.ttf.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\font\\fuente4.ttf"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_modificar.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_modificar.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_fondo_ventana_agregar_eliminar.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_ventana_agregar_eliminar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_background_vuelos_reservados.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\background_vuelos_reservados.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_register.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\register.json"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_aeropuerto.json.flat",
@@ -154,10 +82,6 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_custom_input3.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\custom_input3.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -200,44 +124,20 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_cliente.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_book.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\book.json"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_eliminar.png.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\eliminar.png"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_contra.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\contra.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_eliminar.png.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\eliminar.png"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_menu_inicio.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_menu_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_avion_despegando.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\avion_despegando.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_modificar.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\modificar.png"
-    },
-    {
-        "merged": "com.example.proyecto_ed.app-debug-4:/drawable_button_background.xml.flat",
-        "source": "com.example.proyecto_ed.app-main-6:/drawable/button_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_fondoadmin.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\fondoadmin.json"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_logo1.png.flat",
@@ -252,32 +152,24 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.proyecto_ed.app-debug-4:/drawable_ventanita_modificar.xml.flat",
-        "source": "com.example.proyecto_ed.app-main-6:/drawable/ventanita_modificar.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_imgfondo.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\imgfondo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_ventanita_modificar.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\ventanita_modificar.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_user.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\user.xml"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_custom_input2.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\custom_input2.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.proyecto_ed.app-debug-4:/raw_modificacion.json.flat",
-        "source": "com.example.proyecto_ed.app-main-6:/raw/modificacion.json"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_user.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\user.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_agregarvuelo.png.flat",
@@ -300,6 +192,130 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\font\\fuente3.ttf"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_created.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\created.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_admin.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\admin.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_fondo_ventana_modificar.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_ventana_modificar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_air.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\air.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_avionfondo.png.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\avionfondo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_estadisticalogo.png.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_estadisticalogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_mapa.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_mapa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_modificacion_vuelo_seleccionado.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_modificacion_vuelo_seleccionado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_volver.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\volver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\font_fuente1.ttf.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\font\\fuente1.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_cancelar.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\cancelar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_fondo_ventana_cancelar_vueo.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_ventana_cancelar_vueo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_password.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_mundo.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\mundo.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_agregar.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\agregar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_twotone_attach_email_24.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\twotone_attach_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_perfil.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\perfil.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_outline_engineering_24.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\outline_engineering_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_background_vuelos_reservados.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\background_vuelos_reservados.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_register.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\register.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_custom_input3.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\custom_input3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_book.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\book.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_contra.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\contra.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_avion_despegando.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\avion_despegando.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_fondoadmin.json.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\fondoadmin.json"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_custom_input2.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\custom_input2.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_register.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\register.xml"
     },
@@ -316,12 +332,12 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-anydpi\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_activity_menu_admin.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\activity_menu_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_avion.png.flat",
@@ -344,10 +360,6 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\fondo_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_created.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\created.json"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_imglogoo.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\imglogoo.png"
     },
@@ -360,6 +372,10 @@
         "source": "com.example.proyecto_ed.app-main-6:/layout/ventana_modificar.xml"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\button_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\layout_ventana_cancelar_vuelo.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\layout\\ventana_cancelar_vuelo.xml"
     },
@@ -370,9 +386,5 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\drawable_img_volver.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\drawable\\img_volver.png"
-    },
-    {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-debug-4:\\raw_admin.json.flat",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.11.1\\com.example.proyecto_ed.app-main-6:\\raw\\admin.json"
     }
 ]

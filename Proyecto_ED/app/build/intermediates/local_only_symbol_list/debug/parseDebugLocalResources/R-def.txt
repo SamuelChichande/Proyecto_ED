@@ -45,6 +45,7 @@ drawable img_volver
 drawable imgfondo
 drawable imglogoo
 drawable modificar
+drawable outline_engineering_24
 drawable password
 drawable plane_icon
 drawable register
@@ -61,11 +62,14 @@ font fuente2
 font fuente3
 font fuente4
 font fuente5
+id Aerolinea
+id Capacidad
 id FirstFragment
 id Fllegada
 id Fsalida
 id HoraLlegada
 id HoraSalida
+id Precio
 id SecondFragment
 id Usuario
 id action_FirstFragment_to_SecondFragment
@@ -74,8 +78,11 @@ id aerolinea
 id animationView
 id apellido
 id asientosDisp
+id atras
+id back
 id bgImage
 id botonEliminar
+id botonModificar
 id btnBack
 id btnIniciarSesion
 id btnRegistrarUsuario
@@ -85,6 +92,7 @@ id buttonEstadistica
 id buttonagregar
 id buttoneliminar
 id buttonmodificar
+id cancelar
 id capacidad
 id cardCancelar
 id cardReservar
@@ -94,7 +102,9 @@ id contraseña
 id contraseñaRegistro
 id correo
 id destino
+id dist
 id distancia
+id guardar
 id header
 id idtext
 id imgLogo
@@ -105,7 +115,10 @@ id main
 id map
 id materialButton
 id materialButton2
+id modificacionVuelo
 id modificar
+id mostrarDatosVuelo
+id mostrarVuelos
 id nav_graph
 id nombre
 id origen
@@ -129,6 +142,7 @@ id textView19
 id textView2
 id textView20
 id textView21
+id textView22
 id textView3
 id textView4
 id textView5
@@ -157,6 +171,7 @@ layout registro_usuario
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificacion_vuelo_seleccionado
 layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round

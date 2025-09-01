@@ -3279,6 +3279,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable outline_engineering_24
 drawable password
 drawable plane_icon
 drawable register
@@ -3299,9 +3300,11 @@ font fuente3
 font fuente4
 font fuente5
 id ALT
+id Aerolinea
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Capacidad
 id FUNCTION
 id FirstFragment
 id Fllegada
@@ -3310,6 +3313,7 @@ id HoraLlegada
 id HoraSalida
 id META
 id NO_DEBUG
+id Precio
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3398,12 +3402,14 @@ id arc
 id asConfigured
 id asientosDisp
 id async
+id atras
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
 id axisRelative
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3413,6 +3419,7 @@ id bestChoice
 id bgImage
 id blocking
 id botonEliminar
+id botonModificar
 id bottom
 id bounce
 id bounceBoth
@@ -3431,6 +3438,7 @@ id buttonmodificar
 id cache_measures
 id callMeasure
 id cancel_button
+id cancelar
 id capacidad
 id cardCancelar
 id cardReservar
@@ -3496,6 +3504,7 @@ id disablePostScroll
 id disableScroll
 id disabled
 id disjoint
+id dist
 id distancia
 id dragAnticlockwise
 id dragClockwise
@@ -3549,6 +3558,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guardar
 id hardware
 id header
 id header_title
@@ -3629,6 +3639,7 @@ id matrix
 id message
 id middle
 id mini
+id modificacionVuelo
 id modificar
 id month_grid
 id month_navigation_bar
@@ -3636,6 +3647,8 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id mostrarDatosVuelo
+id mostrarVuelos
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3842,6 +3855,7 @@ id textView19
 id textView2
 id textView20
 id textView21
+id textView22
 id textView3
 id textView4
 id textView5
@@ -4119,6 +4133,7 @@ layout support_simple_spinner_dropdown_item
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificacion_vuelo_seleccionado
 layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round

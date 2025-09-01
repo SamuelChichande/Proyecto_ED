@@ -8,6 +8,7 @@
     android:background="@drawable/fondo_ventana_modificar">
 
     <ImageButton
+        android:id="@+id/atras"
         android:layout_width="39dp"
         android:layout_height="42dp"
         android:background="@drawable/volver"
@@ -24,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fuente4"
-        android:text="Vuelos:"
+        android:text="Flights:"
         android:textColor="@color/white"
         android:textSize="33dp"
         android:textStyle="bold"
@@ -76,6 +77,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ListView
+            android:id="@+id/mostrarVuelos"
             android:layout_width="match_parent"
             android:layout_height="334dp">
 
@@ -83,6 +85,7 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/botonModificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,6 +103,8 @@
         android:textSize="20dp"
         android:textColor="@color/white"
         app:backgroundTint="#6B77AD"
+        app:icon="@drawable/outline_engineering_24"
+        app:iconSize="30dp"
         >
 
     </com.google.android.material.button.MaterialButton>
