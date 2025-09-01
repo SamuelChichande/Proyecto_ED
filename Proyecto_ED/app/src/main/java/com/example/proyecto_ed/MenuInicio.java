@@ -71,4 +71,8 @@ public class MenuInicio extends AppCompatActivity {
         //Intent intent = new Intent(this, InicioSesion.class);
         startActivity(intent);
     }
+    public void viewIniciarSesion(View view) {
+        startActivity(new Intent(this, InicioSesion.class));
+    }
+
 }

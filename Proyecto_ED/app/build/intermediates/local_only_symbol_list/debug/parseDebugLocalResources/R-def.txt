@@ -1,6 +1,9 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color brand_orange
+color brand_orange_ripple
+color brand_red
 color color1
 color color2
 color color3
@@ -45,6 +48,7 @@ drawable img_volver
 drawable imgfondo
 drawable imglogoo
 drawable modificar
+drawable outline_engineering_24
 drawable password
 drawable plane_icon
 drawable register
@@ -80,6 +84,7 @@ id btnBack
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
+id btn_Cancelar_Reserva
 id btn_regresar_viewDatos
 id buttonEstadistica
 id buttonagregar
@@ -101,10 +106,11 @@ id imgLogo
 id imgfondoavion
 id linearLayout
 id lv_Vuelos
+id lv_reservas_usuario
 id main
 id map
-id materialButton
 id materialButton2
+id modificacionVuelo
 id modificar
 id nav_graph
 id nombre
@@ -129,6 +135,8 @@ id textView19
 id textView2
 id textView20
 id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5
@@ -140,9 +148,9 @@ id tileFlights
 id tilesSection
 id tl_DatosVuelos
 id txtAeropuerto
+id txtAeropuerto2
 id txtConexiones
 id txtMeta
-id txtRuta
 id txtWelcome
 id ventanaAgregar
 layout activity_cliente
@@ -157,6 +165,7 @@ layout registro_usuario
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificacion_vuelo_seleccionado
 layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round

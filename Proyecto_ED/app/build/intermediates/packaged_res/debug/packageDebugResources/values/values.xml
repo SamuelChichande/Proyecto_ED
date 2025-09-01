@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="brand_orange">#FF7A00</color>
+    <color name="brand_orange_ripple">#66FF7A00</color>
+    <color name="brand_red">#F44336</color>
     <color name="color1">#E36427</color>
     <color name="color2">#E3A027</color>
     <color name="color3">#E38527</color>

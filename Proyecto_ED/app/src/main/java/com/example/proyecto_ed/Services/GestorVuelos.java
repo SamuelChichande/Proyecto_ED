@@ -14,7 +14,7 @@ import java.util.List;
 public class GestorVuelos {
     private static GestorVuelos instance;
     private LinkedList<Vuelo> vuelos;
-    private static final String NAME_FILE_VUELOS = "vuelos.txt";
+    private static final String NAME_FILE_VUELOS = "Vuelos.txt";
 
     private GestorVuelos(){
         this.vuelos = new LinkedList<>();

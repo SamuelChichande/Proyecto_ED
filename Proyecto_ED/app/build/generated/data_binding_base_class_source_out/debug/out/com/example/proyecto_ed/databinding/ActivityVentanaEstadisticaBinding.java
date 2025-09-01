@@ -33,21 +33,22 @@ public final class ActivityVentanaEstadisticaBinding implements ViewBinding {
   public final TextView txtAeropuerto;
 
   @NonNull
-  public final TextView txtConexiones;
+  public final TextView txtAeropuerto2;
 
   @NonNull
-  public final TextView txtRuta;
+  public final TextView txtConexiones;
 
   private ActivityVentanaEstadisticaBinding(@NonNull LinearLayout rootView,
       @NonNull ImageView btnBack, @NonNull ImageView imgfondoavion, @NonNull LinearLayout main,
-      @NonNull TextView txtAeropuerto, @NonNull TextView txtConexiones, @NonNull TextView txtRuta) {
+      @NonNull TextView txtAeropuerto, @NonNull TextView txtAeropuerto2,
+      @NonNull TextView txtConexiones) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.imgfondoavion = imgfondoavion;
     this.main = main;
     this.txtAeropuerto = txtAeropuerto;
+    this.txtAeropuerto2 = txtAeropuerto2;
     this.txtConexiones = txtConexiones;
-    this.txtRuta = txtRuta;
   }
 
   @Override
@@ -97,20 +98,20 @@ public final class ActivityVentanaEstadisticaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txtAeropuerto2;
+      TextView txtAeropuerto2 = ViewBindings.findChildViewById(rootView, id);
+      if (txtAeropuerto2 == null) {
+        break missingId;
+      }
+
       id = R.id.txtConexiones;
       TextView txtConexiones = ViewBindings.findChildViewById(rootView, id);
       if (txtConexiones == null) {
         break missingId;
       }
 
-      id = R.id.txtRuta;
-      TextView txtRuta = ViewBindings.findChildViewById(rootView, id);
-      if (txtRuta == null) {
-        break missingId;
-      }
-
       return new ActivityVentanaEstadisticaBinding((LinearLayout) rootView, btnBack, imgfondoavion,
-          main, txtAeropuerto, txtConexiones, txtRuta);
+          main, txtAeropuerto, txtAeropuerto2, txtConexiones);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

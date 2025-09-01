@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fuente4"
-        android:text="Vuelos:"
+        android:text="Flights:"
         android:textColor="@color/white"
         android:textSize="33dp"
         android:textStyle="bold"
@@ -100,6 +100,8 @@
         android:textSize="20dp"
         android:textColor="@color/white"
         app:backgroundTint="#6B77AD"
+        app:icon="@drawable/outline_engineering_24"
+        app:iconSize="30dp"
         >
 
     </com.google.android.material.button.MaterialButton>

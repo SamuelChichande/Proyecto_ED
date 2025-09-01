@@ -16,7 +16,7 @@
         android:paddingEnd="12dp"
         android:paddingTop="10dp"
         android:paddingBottom="16dp"
-        android:background="@drawable/cliente_background"
+        android:background="@drawable/fondo_ventana_agregar_eliminar"
         >
 
 

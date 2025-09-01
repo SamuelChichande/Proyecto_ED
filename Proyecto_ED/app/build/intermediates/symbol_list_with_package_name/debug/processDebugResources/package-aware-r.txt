@@ -1474,6 +1474,9 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color brand_orange
+color brand_orange_ripple
+color brand_red
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3279,6 +3282,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable outline_engineering_24
 drawable password
 drawable plane_icon
 drawable register
@@ -3422,6 +3426,7 @@ id btnBack
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
+id btn_Cancelar_Reserva
 id btn_regresar_viewDatos
 id buttonEstadistica
 id buttonPanel
@@ -3596,6 +3601,7 @@ id locale
 id lottie_layer_name
 id ltr
 id lv_Vuelos
+id lv_reservas_usuario
 id m3_side_sheet
 id main
 id map
@@ -3603,7 +3609,6 @@ id marquee
 id masked
 id match_constraint
 id match_parent
-id materialButton
 id materialButton2
 id material_clock_display
 id material_clock_display_and_toggle
@@ -3629,6 +3634,7 @@ id matrix
 id message
 id middle
 id mini
+id modificacionVuelo
 id modificar
 id month_grid
 id month_navigation_bar
@@ -3842,6 +3848,8 @@ id textView19
 id textView2
 id textView20
 id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5
@@ -3881,9 +3889,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtAeropuerto
+id txtAeropuerto2
 id txtConexiones
 id txtMeta
-id txtRuta
 id txtWelcome
 id unchecked
 id uniform
@@ -4119,6 +4127,7 @@ layout support_simple_spinner_dropdown_item
 layout ventana_agregar_eliminar_admin
 layout ventana_cancelar_vuelo
 layout ventana_mapa
+layout ventana_modificacion_vuelo_seleccionado
 layout ventana_modificar
 mipmap ic_launcher
 mipmap ic_launcher_round

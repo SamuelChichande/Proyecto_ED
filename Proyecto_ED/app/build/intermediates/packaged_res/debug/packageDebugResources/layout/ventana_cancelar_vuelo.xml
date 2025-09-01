@@ -48,17 +48,16 @@
         app:layout_constraintVertical_bias="0.556">
 
         <ListView
+            android:id="@+id/lv_reservas_usuario"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/background_vuelos_reservados"
-
-            >
+            android:background="@drawable/background_vuelos_reservados">
 
         </ListView>
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/btn_Cancelar_Reserva"
         android:layout_width="159dp"
         android:layout_height="67dp"
         android:backgroundTint="#591675"

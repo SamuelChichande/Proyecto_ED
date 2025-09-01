@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.proyecto_ed.app-mergeDebugResources-2:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.proyecto_ed.app-mergeDebugResources-45:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Escritorio\\ProyectoEstructurass\\Proyecto_ED\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\Cesar Moreira\\StudioProjects\\Proyecto_ED\\Proyecto_ED\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
