@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 import com.example.proyecto_ed.Models.Vuelo;
+import com.example.proyecto_ed.Td.TDA_ABB.BinaryTree;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -14,6 +15,7 @@ import java.util.List;
 public class GestorVuelos {
     private static GestorVuelos instance;
     private LinkedList<Vuelo> vuelos;
+    private BinaryTree abb;
     private static final String NAME_FILE_VUELOS = "Vuelos.txt";
 
     private GestorVuelos(){
@@ -59,6 +61,18 @@ public class GestorVuelos {
         }
     }
 
+    public void cargarABB(){
+        if (vuelos == null || vuelos.isEmpty()) {
+            abb = new BinaryTree(vuelos.getFirst());
+            return;
+        }
+
+        // Construimos el ABB insertando los elementos en orden
+        for (int i = 1; i < vuelos.size(); i++) {
+            abb.insertar(abb, vuelos.get(i));
+        }
+    }
+
     public void agregarVuelos(Vuelo vuelo){
         if (vuelo == null) return;
         vuelos.add(vuelo);
@@ -90,5 +104,9 @@ public class GestorVuelos {
 
     public LinkedList<Vuelo> getVuelos(){
         return vuelos;
+    }
+
+    public BinaryTree getAbb(){
+        return abb;
     }
 }

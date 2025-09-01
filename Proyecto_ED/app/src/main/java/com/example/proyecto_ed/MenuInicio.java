@@ -53,6 +53,7 @@ public class MenuInicio extends AppCompatActivity {
 
         gestorAeropuertos.cargarAeropuerto(this);
         gestorVuelos.cargarVuelos(this);
+        gestorVuelos.cargarABB();
         gestorUsuarios.cargarUsuarios(this);
         reservarManager.cargarReservas(this);
 
