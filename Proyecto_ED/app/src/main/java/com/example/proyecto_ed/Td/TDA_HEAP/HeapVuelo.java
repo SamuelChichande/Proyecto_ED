@@ -22,6 +22,16 @@ public class HeapVuelo {
         makeHeap();
     }
 
+    public HeapVuelo(boolean isMax) {
+        this.arreglo = new Vuelo[MAX];
+        this.efectivo = arreglo.length;
+        this.isMax = isMax;
+        this.comparator = isMax
+                ? Comparator.comparingDouble(Vuelo::getPrecio).reversed()
+                : Comparator.comparingDouble(Vuelo::getPrecio);
+        makeHeap();
+    }
+
     public boolean isEmpty() {
         return efectivo == 0;
     }

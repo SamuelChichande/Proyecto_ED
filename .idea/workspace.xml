@@ -201,7 +201,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="logica ventana modificar terminadas" />
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="logica ventana modificar terminadas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Td/TDA_HEAP/HeapVuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Td/TDA_HEAP/HeapVuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/VentanaCancelarVuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/VentanaCancelarVuelo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +215,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Asus\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Proyecto_ED">
       <ProjectState />
@@ -237,8 +242,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -256,24 +261,24 @@
     &quot;assignee&quot;: &quot;SamuelChichande&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOPfA-q86mLN-T",
-        "number": 6
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOPfA-q86mLN-T&quot;,
+        &quot;number&quot;: 6
       },
-      "lastSeen": 1756675294478
+      &quot;lastSeen&quot;: 1756675294478
     },
     {
-      "id": {
-        "id": "PR_kwDOPfA-q86mOoOV",
-        "number": 9
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOPfA-q86mOoOV&quot;,
+        &quot;number&quot;: 9
       },
-      "lastSeen": 1756712500533
+      &quot;lastSeen&quot;: 1756712500533
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SamuelChichande/Proyecto_ED.git&quot;,
@@ -303,6 +308,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.InicioSesion.executor": "Run",
     "Android App.MainActivity.executor": "Run",
     "Android App.MenuAdmin.executor": "Run",
     "Android App.MenuInicio (1).executor": "Run",
@@ -319,6 +325,7 @@
     "Android App.VentanaModificar (5).executor": "Run",
     "Android App.VentanaModificar.executor": "Debug",
     "Android App.app.executor": "Run",
+    "Android App.menuInicio.executor": "Run",
     "Android App.ventana_seleccion_vuelo_modificar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -331,7 +338,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "#9 on Logica__ventana__modificar-terminada",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Cesar Moreira/StudioProjects/Proyecto_ED/Proyecto_ED/app/src/main/res/drawable"
   }
 }]]></component>
@@ -361,7 +368,7 @@
       <recent name="com.example.proyecto_ed.Models" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.VentanaModificar (1)">
+  <component name="RunManager" selected="Android App.menuInicio">
     <configuration name="InicioSesion" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Proyecto_ED.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
@@ -938,6 +945,78 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="menuInicio" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Proyecto_ED.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.proyecto_ed.MenuInicio" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ventana_seleccion_vuelo_modificar" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
       <module name="Proyecto_ED.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
@@ -1014,6 +1093,7 @@
       <item itemvalue="Android App.app" />
       <item itemvalue="Android App.VentanaMapa" />
       <item itemvalue="Android App.InicioSesion" />
+      <item itemvalue="Android App.menuInicio" />
       <item itemvalue="Android App.RegistrarUsuario" />
       <item itemvalue="Android App.VentanaModificar (1)" />
       <item itemvalue="Android App.VentanaModificar (4)" />

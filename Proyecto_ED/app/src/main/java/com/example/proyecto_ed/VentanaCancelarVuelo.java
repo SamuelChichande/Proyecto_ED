@@ -14,10 +14,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyecto_ed.Models.Cliente;
 import com.example.proyecto_ed.Models.ReservarVuelo;
 import com.example.proyecto_ed.Models.Usuario;
 import com.example.proyecto_ed.Models.Vuelo;
 import com.example.proyecto_ed.Services.FileManager;
+import com.example.proyecto_ed.Services.GestorUsuarios;
 import com.example.proyecto_ed.Services.ReservarManager;
 import com.google.android.material.button.MaterialButton;
 
@@ -28,6 +30,7 @@ public class VentanaCancelarVuelo extends AppCompatActivity {
     private ListView reservas;
     private MaterialButton btnCancelar;
     private final ReservarManager reservarManager = ReservarManager.getInstance();
+    private final GestorUsuarios gestorUsuarios = GestorUsuarios.getInstance();
     private static final String NAME_FILE_RESERVAS = "Reservas.txt";
     private Usuario user;
     private ReservarVuelo select;
@@ -53,19 +56,26 @@ public class VentanaCancelarVuelo extends AppCompatActivity {
 
         btnCancelar.setOnClickListener(v -> {
             if (select != null){
+                //Eliminar del reservarManager
                 reservarManager.eliminarReserva(select);
+
+                //Eliminar de archivos
+                int index = reservarManager.getReservas().indexOf(select);
+                List<String> lectura = FileManager.leerArchivo(this,NAME_FILE_RESERVAS);
+                lectura.remove(index);
+                FileManager.sobreescribir(this,NAME_FILE_RESERVAS, lectura);
+
+                //Eliminar de la lista del cliente
+                for (Usuario user: gestorUsuarios.getUsuarios()){
+                    if (!user.isAdmin() && user.getIdUser() == select.getIdUser()) {
+                        Cliente c = (Cliente) user;
+                        c.cancelarReserva(select.getId());
+                    }
+                }
+
                 Toast.makeText(this, "Su reserva ha sido cancelada de manera exitosa", Toast.LENGTH_SHORT).show();
 
-                String cadena = select.getId()+","+select.getIdUser()+","+select.getNameUser()+",";
-                String idVuelos = "";
-                for (Vuelo vuelo: select.getVuelos()){
-                    idVuelos += "-"+vuelo.getId();
-                }
-                cadena += idVuelos.substring(1);
 
-                List<String> lectura = FileManager.leerArchivo(this,NAME_FILE_RESERVAS);
-                lectura.add(cadena);
-                FileManager.sobreescribir(this,NAME_FILE_RESERVAS, lectura);
             } else{
                 Toast.makeText(this, "Seleccione la reserva a cancelar", Toast.LENGTH_SHORT).show();
             }
