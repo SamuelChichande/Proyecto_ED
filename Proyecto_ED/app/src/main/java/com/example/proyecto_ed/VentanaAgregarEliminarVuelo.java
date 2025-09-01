@@ -270,12 +270,12 @@ public class VentanaAgregarEliminarVuelo extends AppCompatActivity {
     }
 
     private void updateEditText(EditText editText) {
-        String dateString = String.format(Locale.getDefault(), "%02d/%02d/%d", selectedDay, selectedMonth + 1, selectedYear);
+        String dateString = String.format(Locale.getDefault(), "%d-%02d-%02d", selectedYear, selectedMonth + 1, selectedDay);
         editText.setText(dateString);
     }
 
     private void saveDate(String date) {
-        String dateString = String.format(Locale.getDefault(), "%02d-%02d-%d", selectedYear, selectedMonth + 1, selectedDay);
+        String dateString = String.format(Locale.getDefault(), "%d-%02d-%02d", selectedYear, selectedMonth + 1, selectedDay);
         if (date.equals("fechaSalida")){
             fechaSalida = dateString;
         } else if (date.equals("fechaLlegada")) {

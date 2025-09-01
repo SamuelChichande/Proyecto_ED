@@ -79,12 +79,17 @@ id animationView
 id apellido
 id asientosDisp
 id bgImage
-id botonEliminar
 id btnBack
+id btnCancel
+id btnCancelDate
+id btnConfirm
+id btnConfirmDate
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
 id btn_Cancelar_Reserva
+id btn_agregar_vuelo
+id btn_eliminar_vuelo
 id btn_regresar_viewDatos
 id buttonEstadistica
 id buttonagregar
@@ -98,6 +103,7 @@ id content
 id contraseña
 id contraseñaRegistro
 id correo
+id datePicker
 id destino
 id distancia
 id header
@@ -105,11 +111,11 @@ id idtext
 id imgLogo
 id imgfondoavion
 id linearLayout
+id ls_listar_vuelos
 id lv_Vuelos
 id lv_reservas_usuario
 id main
 id map
-id materialButton2
 id modificacionVuelo
 id modificar
 id nav_graph
@@ -146,6 +152,7 @@ id textView8
 id textView9
 id tileFlights
 id tilesSection
+id timePicker
 id tl_DatosVuelos
 id txtAeropuerto
 id txtAeropuerto2
@@ -160,6 +167,8 @@ layout activity_menu_admin
 layout activity_menu_inicio
 layout activity_reserva_vuelo
 layout activity_ventana_estadistica
+layout dialog_date_picker
+layout dialog_time_picker
 layout inicio_sesion
 layout registro_usuario
 layout ventana_agregar_eliminar_admin

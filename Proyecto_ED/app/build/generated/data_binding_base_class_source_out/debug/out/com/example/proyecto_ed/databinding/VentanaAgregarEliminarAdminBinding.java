@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -44,7 +45,10 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
   public final EditText asientosDisp;
 
   @NonNull
-  public final MaterialButton botonEliminar;
+  public final MaterialButton btnAgregarVuelo;
+
+  @NonNull
+  public final MaterialButton btnEliminarVuelo;
 
   @NonNull
   public final EditText capacidad;
@@ -56,7 +60,7 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
   public final EditText distancia;
 
   @NonNull
-  public final MaterialButton materialButton2;
+  public final ListView lsListarVuelos;
 
   @NonNull
   public final EditText origen;
@@ -110,14 +114,14 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
       @NonNull EditText Fllegada, @NonNull EditText Fsalida, @NonNull EditText HoraLlegada,
       @NonNull EditText HoraSalida, @NonNull EditText aerolinea,
       @NonNull LottieAnimationView animationView, @NonNull EditText asientosDisp,
-      @NonNull MaterialButton botonEliminar, @NonNull EditText capacidad, @NonNull EditText destino,
-      @NonNull EditText distancia, @NonNull MaterialButton materialButton2,
-      @NonNull EditText origen, @NonNull EditText precio, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
-      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
-      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView20, @NonNull TextView textView7, @NonNull TextView textView9,
-      @NonNull ConstraintLayout ventanaAgregar) {
+      @NonNull MaterialButton btnAgregarVuelo, @NonNull MaterialButton btnEliminarVuelo,
+      @NonNull EditText capacidad, @NonNull EditText destino, @NonNull EditText distancia,
+      @NonNull ListView lsListarVuelos, @NonNull EditText origen, @NonNull EditText precio,
+      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
+      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
+      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
+      @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView7,
+      @NonNull TextView textView9, @NonNull ConstraintLayout ventanaAgregar) {
     this.rootView = rootView;
     this.Fllegada = Fllegada;
     this.Fsalida = Fsalida;
@@ -126,11 +130,12 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
     this.aerolinea = aerolinea;
     this.animationView = animationView;
     this.asientosDisp = asientosDisp;
-    this.botonEliminar = botonEliminar;
+    this.btnAgregarVuelo = btnAgregarVuelo;
+    this.btnEliminarVuelo = btnEliminarVuelo;
     this.capacidad = capacidad;
     this.destino = destino;
     this.distancia = distancia;
-    this.materialButton2 = materialButton2;
+    this.lsListarVuelos = lsListarVuelos;
     this.origen = origen;
     this.precio = precio;
     this.textView10 = textView10;
@@ -218,9 +223,15 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.botonEliminar;
-      MaterialButton botonEliminar = ViewBindings.findChildViewById(rootView, id);
-      if (botonEliminar == null) {
+      id = R.id.btn_agregar_vuelo;
+      MaterialButton btnAgregarVuelo = ViewBindings.findChildViewById(rootView, id);
+      if (btnAgregarVuelo == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_eliminar_vuelo;
+      MaterialButton btnEliminarVuelo = ViewBindings.findChildViewById(rootView, id);
+      if (btnEliminarVuelo == null) {
         break missingId;
       }
 
@@ -242,9 +253,9 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.materialButton2;
-      MaterialButton materialButton2 = ViewBindings.findChildViewById(rootView, id);
-      if (materialButton2 == null) {
+      id = R.id.ls_listar_vuelos;
+      ListView lsListarVuelos = ViewBindings.findChildViewById(rootView, id);
+      if (lsListarVuelos == null) {
         break missingId;
       }
 
@@ -341,10 +352,10 @@ public final class VentanaAgregarEliminarAdminBinding implements ViewBinding {
       ConstraintLayout ventanaAgregar = (ConstraintLayout) rootView;
 
       return new VentanaAgregarEliminarAdminBinding((ConstraintLayout) rootView, Fllegada, Fsalida,
-          HoraLlegada, HoraSalida, aerolinea, animationView, asientosDisp, botonEliminar, capacidad,
-          destino, distancia, materialButton2, origen, precio, textView10, textView11, textView12,
-          textView13, textView14, textView15, textView16, textView17, textView18, textView19,
-          textView20, textView7, textView9, ventanaAgregar);
+          HoraLlegada, HoraSalida, aerolinea, animationView, asientosDisp, btnAgregarVuelo,
+          btnEliminarVuelo, capacidad, destino, distancia, lsListarVuelos, origen, precio,
+          textView10, textView11, textView12, textView13, textView14, textView15, textView16,
+          textView17, textView18, textView19, textView20, textView7, textView9, ventanaAgregar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

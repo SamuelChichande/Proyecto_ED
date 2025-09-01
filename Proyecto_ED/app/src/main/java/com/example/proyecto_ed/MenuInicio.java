@@ -68,7 +68,6 @@ public class MenuInicio extends AppCompatActivity {
 
     public void cambiarVentanaGrafo(View view){
         Intent intent = new Intent(this, VentanaMapa.class);
-        //Intent intent = new Intent(this, InicioSesion.class);
         startActivity(intent);
     }
     public void viewIniciarSesion(View view) {
