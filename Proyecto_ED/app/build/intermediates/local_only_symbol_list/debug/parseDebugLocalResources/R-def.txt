@@ -1,9 +1,6 @@
 R_DEF: Internal format may change without notice
 local
 color black
-color brand_orange
-color brand_orange_ripple
-color brand_red
 color color1
 color color2
 color color3
@@ -84,18 +81,12 @@ id asientosDisp
 id atras
 id back
 id bgImage
+id botonEliminar
 id botonModificar
 id btnBack
-id btnCancel
-id btnCancelDate
-id btnConfirm
-id btnConfirmDate
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
-id btn_Cancelar_Reserva
-id btn_agregar_vuelo
-id btn_eliminar_vuelo
 id btn_regresar_viewDatos
 id buttonEstadistica
 id buttonagregar
@@ -110,7 +101,6 @@ id content
 id contraseña
 id contraseñaRegistro
 id correo
-id datePicker
 id destino
 id dist
 id distancia
@@ -120,11 +110,11 @@ id idtext
 id imgLogo
 id imgfondoavion
 id linearLayout
-id ls_listar_vuelos
 id lv_Vuelos
-id lv_reservas_usuario
 id main
 id map
+id materialButton
+id materialButton2
 id modificacionVuelo
 id modificar
 id mostrarDatosVuelo
@@ -162,12 +152,11 @@ id textView8
 id textView9
 id tileFlights
 id tilesSection
-id timePicker
 id tl_DatosVuelos
 id txtAeropuerto
-id txtAeropuerto2
 id txtConexiones
 id txtMeta
+id txtRuta
 id txtWelcome
 id ventanaAgregar
 layout activity_cliente
@@ -177,8 +166,6 @@ layout activity_menu_admin
 layout activity_menu_inicio
 layout activity_reserva_vuelo
 layout activity_ventana_estadistica
-layout dialog_date_picker
-layout dialog_time_picker
 layout inicio_sesion
 layout registro_usuario
 layout ventana_agregar_eliminar_admin

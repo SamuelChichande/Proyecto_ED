@@ -1474,9 +1474,6 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
-color brand_orange
-color brand_orange_ripple
-color brand_red
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3421,6 +3418,7 @@ id below
 id bestChoice
 id bgImage
 id blocking
+id botonEliminar
 id botonModificar
 id bottom
 id bounce
@@ -3428,16 +3426,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnBack
-id btnCancel
-id btnCancelDate
-id btnConfirm
-id btnConfirmDate
 id btnIniciarSesion
 id btnRegistrarUsuario
 id btnRegistrarse
-id btn_Cancelar_Reserva
-id btn_agregar_vuelo
-id btn_eliminar_vuelo
 id btn_regresar_viewDatos
 id buttonEstadistica
 id buttonPanel
@@ -3491,7 +3482,6 @@ id custom
 id customPanel
 id cut
 id dark
-id datePicker
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3614,10 +3604,8 @@ id listMode
 id list_item
 id locale
 id lottie_layer_name
-id ls_listar_vuelos
 id ltr
 id lv_Vuelos
-id lv_reservas_usuario
 id m3_side_sheet
 id main
 id map
@@ -3625,6 +3613,8 @@ id marquee
 id masked
 id match_constraint
 id match_parent
+id materialButton
+id materialButton2
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3885,7 +3875,6 @@ id textinput_suffix_text
 id tileFlights
 id tilesSection
 id time
-id timePicker
 id title
 id titleDividerNoCustom
 id title_template
@@ -3906,9 +3895,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtAeropuerto
-id txtAeropuerto2
 id txtConexiones
 id txtMeta
+id txtRuta
 id txtWelcome
 id unchecked
 id uniform
@@ -4076,8 +4065,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout dialog_date_picker
-layout dialog_time_picker
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout inicio_sesion

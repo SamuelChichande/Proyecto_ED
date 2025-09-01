@@ -201,87 +201,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="logica ventana modificar terminadas">
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Td/TDA_ABB/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Td/TDA_ABB/NodeBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/proyecto_ed/databinding/VentanaModificacionVueloSeleccionadoBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/proyecto_ed/databinding/VentanaModificacionVueloSeleccionadoBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/proyecto_ed/databinding/VentanaModificarBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/proyecto_ed/databinding/VentanaModificarBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/data_binding_base_class_log_artifact/debug/dataBindingGenBaseClassesDebug/out/com.example.proyecto_ed-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/data_binding_base_class_log_artifact/debug/dataBindingGenBaseClassesDebug/out/com.example.proyecto_ed-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_1/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_2/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_2/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_3/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_4/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_4/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_5/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_5/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_6/graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_7/graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/ventana_modificacion_vuelo_seleccionado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/ventana_modificacion_vuelo_seleccionado.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/ventana_modificacion_vuelo_seleccionado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/ventana_modificacion_vuelo_seleccionado.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/MenuInicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/Services/GestorVuelos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/proyecto_ed/Services/GestorVuelos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_outline_engineering_24.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_outline_engineering_24.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_ventana_modificacion_vuelo_seleccionado.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_ventana_modificacion_vuelo_seleccionado.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_ventana_modificar.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res/debug/mergeDebugResources/layout_ventana_modificar.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/1f81bd629e7eb8271688497047ace4e57b46d2850bd1abf56ba9051159afa587_7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuInicio.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/MenuInicio.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/Services/GestorVuelos.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/example/proyecto_ed/Services/GestorVuelos.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/d85f5c9045a0386bc7c9cd96ad28a3f5f8b07e8f1c9dfe22f58e8fc2f91d0468_5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/VentanaModificar$1.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/VentanaModificar.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ventana_seleccion_vuelo_modificar$1.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ventana_seleccion_vuelo_modificar$2.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ventana_seleccion_vuelo_modificar$3.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ventana_seleccion_vuelo_modificar.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/MenuInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/MenuInicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Services/GestorVuelos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/app/src/main/java/com/example/proyecto_ed/Services/GestorVuelos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_ED/build/reports/problems/problems-report.html" afterDir="false" />
-    </list>
+    <list default="true" id="0d98234f-7f98-4c82-961b-7c4197650985" name="Changes" comment="logica ventana modificar terminadas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +210,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Schic\.android\avd\Pixel_9.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Asus\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Proyecto_ED">
       <ProjectState />
@@ -317,8 +237,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -336,24 +256,24 @@
     &quot;assignee&quot;: &quot;SamuelChichande&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOPfA-q86mLN-T&quot;,
-        &quot;number&quot;: 6
+      "id": {
+        "id": "PR_kwDOPfA-q86mLN-T",
+        "number": 6
       },
-      &quot;lastSeen&quot;: 1756675294478
+      "lastSeen": 1756675294478
     },
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOPfA-q86mOoOV&quot;,
-        &quot;number&quot;: 9
+      "id": {
+        "id": "PR_kwDOPfA-q86mOoOV",
+        "number": 9
       },
-      &quot;lastSeen&quot;: 1756712500533
+      "lastSeen": 1756712500533
     }
   ]
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SamuelChichande/Proyecto_ED.git&quot;,
@@ -383,7 +303,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Android App.InicioSesion.executor": "Run",
     "Android App.MainActivity.executor": "Run",
     "Android App.MenuAdmin.executor": "Run",
     "Android App.MenuInicio (1).executor": "Run",
@@ -400,7 +319,6 @@
     "Android App.VentanaModificar (5).executor": "Run",
     "Android App.VentanaModificar.executor": "Debug",
     "Android App.app.executor": "Run",
-    "Android App.menuInicio.executor": "Run",
     "Android App.ventana_seleccion_vuelo_modificar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -413,7 +331,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#9 on Logica__ventana__modificar-terminada",
     "last_opened_file_path": "C:/Users/Cesar Moreira/StudioProjects/Proyecto_ED/Proyecto_ED/app/src/main/res/drawable"
   }
 }]]></component>
@@ -443,7 +361,7 @@
       <recent name="com.example.proyecto_ed.Models" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.menuInicio">
+  <component name="RunManager" selected="Android App.VentanaModificar (1)">
     <configuration name="InicioSesion" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Proyecto_ED.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
@@ -1020,78 +938,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="menuInicio" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="Proyecto_ED.app" />
-      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
-      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
-      <option name="CLEAR_APP_STORAGE" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="specific_activity" />
-      <option name="RESTORE_ENABLED" value="false" />
-      <option name="RESTORE_FILE" value="" />
-      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
-      </Hybrid>
-      <Java>
-        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
-      </Java>
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY" value="" />
-      <option name="ACTIVITY_CLASS" value="com.example.proyecto_ed.MenuInicio" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ventana_seleccion_vuelo_modificar" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
       <module name="Proyecto_ED.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
@@ -1168,7 +1014,6 @@
       <item itemvalue="Android App.app" />
       <item itemvalue="Android App.VentanaMapa" />
       <item itemvalue="Android App.InicioSesion" />
-      <item itemvalue="Android App.menuInicio" />
       <item itemvalue="Android App.RegistrarUsuario" />
       <item itemvalue="Android App.VentanaModificar (1)" />
       <item itemvalue="Android App.VentanaModificar (4)" />
