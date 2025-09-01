@@ -14,6 +14,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.proyecto_ed.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -27,6 +28,9 @@ public final class ActivityMenuInicioBinding implements ViewBinding {
 
   @NonNull
   public final ImageView bgImage;
+
+  @NonNull
+  public final MaterialButton btnIniciarSesion;
 
   @NonNull
   public final LinearLayout content;
@@ -51,12 +55,13 @@ public final class ActivityMenuInicioBinding implements ViewBinding {
 
   private ActivityMenuInicioBinding(@NonNull FrameLayout rootView,
       @NonNull LottieAnimationView animationView, @NonNull ImageView bgImage,
-      @NonNull LinearLayout content, @NonNull LinearLayout header, @NonNull ImageView imgLogo,
-      @NonNull FrameLayout main, @NonNull LinearLayout tileFlights, @NonNull TextView txtMeta,
-      @NonNull TextView txtWelcome) {
+      @NonNull MaterialButton btnIniciarSesion, @NonNull LinearLayout content,
+      @NonNull LinearLayout header, @NonNull ImageView imgLogo, @NonNull FrameLayout main,
+      @NonNull LinearLayout tileFlights, @NonNull TextView txtMeta, @NonNull TextView txtWelcome) {
     this.rootView = rootView;
     this.animationView = animationView;
     this.bgImage = bgImage;
+    this.btnIniciarSesion = btnIniciarSesion;
     this.content = content;
     this.header = header;
     this.imgLogo = imgLogo;
@@ -105,6 +110,12 @@ public final class ActivityMenuInicioBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnIniciarSesion;
+      MaterialButton btnIniciarSesion = ViewBindings.findChildViewById(rootView, id);
+      if (btnIniciarSesion == null) {
+        break missingId;
+      }
+
       id = R.id.content;
       LinearLayout content = ViewBindings.findChildViewById(rootView, id);
       if (content == null) {
@@ -143,8 +154,8 @@ public final class ActivityMenuInicioBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMenuInicioBinding((FrameLayout) rootView, animationView, bgImage, content,
-          header, imgLogo, main, tileFlights, txtMeta, txtWelcome);
+      return new ActivityMenuInicioBinding((FrameLayout) rootView, animationView, bgImage,
+          btnIniciarSesion, content, header, imgLogo, main, tileFlights, txtMeta, txtWelcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

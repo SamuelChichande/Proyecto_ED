@@ -19,10 +19,10 @@
         >
 
         <ListView
+            android:id="@+id/ls_listar_vuelos"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
 
-            >
+            android:layout_height="128dp">
 
 
         </ListView>
@@ -67,7 +67,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,7 +86,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +104,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -122,7 +122,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -168,7 +168,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -236,7 +236,7 @@
         app:layout_constraintVertical_bias="0.115" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton2"
+        android:id="@+id/btn_agregar_vuelo"
         android:layout_width="181dp"
         android:layout_height="44dp"
         android:backgroundTint="#DCA344"
@@ -262,7 +262,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="datetime|time"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -280,7 +280,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -314,7 +314,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -361,7 +361,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="datetime|time"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -393,7 +393,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -411,7 +411,7 @@
         android:background="@drawable/custom_input3"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -439,7 +439,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/botonEliminar"
+        android:id="@+id/btn_eliminar_vuelo"
         android:layout_width="181dp"
         android:layout_height="44dp"
         android:backgroundTint="#BD5B44"

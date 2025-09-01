@@ -1,8 +1,10 @@
 package com.example.proyecto_ed;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -166,5 +168,9 @@ public class VentanaMapa extends AppCompatActivity {
         long hours = duracion.toHours();
         long minutes = duracion.toMinutes() % 60;
         return hours + "h " + minutes + "m";
+    }
+    public void viewVolver(View view){
+        Intent intent = new Intent(this, MenuInicio.class);
+        startActivity(intent);
     }
 }

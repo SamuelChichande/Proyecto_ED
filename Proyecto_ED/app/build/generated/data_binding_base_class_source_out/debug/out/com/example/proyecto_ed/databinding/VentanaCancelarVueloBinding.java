@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,13 +27,16 @@ public final class VentanaCancelarVueloBinding implements ViewBinding {
   public final LottieAnimationView animationView;
 
   @NonNull
+  public final MaterialButton btnCancelarReserva;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
-  public final ConstraintLayout main;
+  public final ListView lvReservasUsuario;
 
   @NonNull
-  public final MaterialButton materialButton;
+  public final ConstraintLayout main;
 
   @NonNull
   public final TextView textView5;
@@ -41,14 +45,15 @@ public final class VentanaCancelarVueloBinding implements ViewBinding {
   public final TextView textView6;
 
   private VentanaCancelarVueloBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LottieAnimationView animationView, @NonNull LinearLayout linearLayout,
-      @NonNull ConstraintLayout main, @NonNull MaterialButton materialButton,
-      @NonNull TextView textView5, @NonNull TextView textView6) {
+      @NonNull LottieAnimationView animationView, @NonNull MaterialButton btnCancelarReserva,
+      @NonNull LinearLayout linearLayout, @NonNull ListView lvReservasUsuario,
+      @NonNull ConstraintLayout main, @NonNull TextView textView5, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.animationView = animationView;
+    this.btnCancelarReserva = btnCancelarReserva;
     this.linearLayout = linearLayout;
+    this.lvReservasUsuario = lvReservasUsuario;
     this.main = main;
-    this.materialButton = materialButton;
     this.textView5 = textView5;
     this.textView6 = textView6;
   }
@@ -86,19 +91,25 @@ public final class VentanaCancelarVueloBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_Cancelar_Reserva;
+      MaterialButton btnCancelarReserva = ViewBindings.findChildViewById(rootView, id);
+      if (btnCancelarReserva == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
         break missingId;
       }
 
-      ConstraintLayout main = (ConstraintLayout) rootView;
-
-      id = R.id.materialButton;
-      MaterialButton materialButton = ViewBindings.findChildViewById(rootView, id);
-      if (materialButton == null) {
+      id = R.id.lv_reservas_usuario;
+      ListView lvReservasUsuario = ViewBindings.findChildViewById(rootView, id);
+      if (lvReservasUsuario == null) {
         break missingId;
       }
+
+      ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
@@ -113,7 +124,7 @@ public final class VentanaCancelarVueloBinding implements ViewBinding {
       }
 
       return new VentanaCancelarVueloBinding((ConstraintLayout) rootView, animationView,
-          linearLayout, main, materialButton, textView5, textView6);
+          btnCancelarReserva, linearLayout, lvReservasUsuario, main, textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

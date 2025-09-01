@@ -9,13 +9,12 @@
     android:paddingEnd="12dp"
     android:paddingTop="10dp"
     android:paddingBottom="16dp"
-    android:background="@drawable/cliente_background">
+    android:background="@drawable/fondo_ventana_agregar_eliminar">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp">
-
 
         <ImageView
             android:id="@+id/imgfondoavion"
@@ -41,14 +40,14 @@
             app:tint="@android:color/white" />
     </RelativeLayout>
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/fuente4"
         android:text="Estadísticas"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="40sp"
         android:textStyle="bold"/>
 
     <TextView
@@ -60,12 +59,16 @@
         android:textSize="18sp"
         android:textStyle="bold"/>
 
+    <!-- Primer contenedor -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@drawable/custom_input3"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp">
 
         <TextView
             android:id="@+id/txtConexiones"
@@ -79,17 +82,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Aeropuerto más/menos conectado"
+        android:text="Aeropuerto más conectado"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"/>
 
+    <!-- Segundo contenedor -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@drawable/custom_input3"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp">
 
         <TextView
             android:id="@+id/txtAeropuerto"
@@ -103,22 +110,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Ruta más corta entre dos destinos"
+        android:text="Aeropuerto menos conectado"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"/>
 
-
+    <!-- Tercer contenedor -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@drawable/custom_input3"
         android:orientation="vertical"
-        android:padding="12dp">
-
+        android:padding="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp">
 
         <TextView
-            android:id="@+id/txtRuta"
+            android:id="@+id/txtAeropuerto2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"

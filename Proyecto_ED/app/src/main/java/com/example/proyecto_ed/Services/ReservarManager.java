@@ -13,7 +13,7 @@ import java.util.List;
 public class ReservarManager {
     private static ReservarManager instance;
     private LinkedList<ReservarVuelo> reservas;
-    private static final String NAME_FILE_Reservas = "Reservas.txt";
+    private static final String NAME_FILE_RESERVAS = "Reservas.txt";
     private final GestorVuelos gestorVuelos = GestorVuelos.getInstance();
 
     private ReservarManager(){
@@ -28,7 +28,7 @@ public class ReservarManager {
     }
 
     public void cargarReservas(Context context){
-        List<String> contenidos = FileManager.leerArchivo(context, NAME_FILE_Reservas);
+        List<String> contenidos = FileManager.leerArchivo(context, NAME_FILE_RESERVAS);
 
         if (contenidos == null) return;
 
@@ -61,7 +61,7 @@ public class ReservarManager {
                 agregarReserva(reservarVuelo);
 
             } catch (NumberFormatException e) {
-                Toast.makeText(context, "Existe un error en los datos guardados del archivo "+NAME_FILE_Reservas, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Existe un error en los datos guardados del archivo "+NAME_FILE_RESERVAS, Toast.LENGTH_SHORT).show();
             } catch (Exception e) {
                 Toast.makeText(context, "Ha ocurrido un error al momento de cargar las reservas", Toast.LENGTH_SHORT).show();
             }
@@ -71,5 +71,14 @@ public class ReservarManager {
     public void agregarReserva(ReservarVuelo rv){
         if (rv == null) return;
         reservas.add(rv);
+    }
+
+    public void eliminarReserva(ReservarVuelo rv){
+        if (rv == null) return;
+        reservas.remove(rv);
+    }
+
+    public LinkedList<ReservarVuelo> getReservas(){
+        return reservas;
     }
 }

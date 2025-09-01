@@ -4,6 +4,7 @@ package com.example.proyecto_ed.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,14 +21,18 @@ public final class VentanaMapaBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView btnBack;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
   public final FragmentContainerView map;
 
-  private VentanaMapaBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
-      @NonNull FragmentContainerView map) {
+  private VentanaMapaBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
+      @NonNull ConstraintLayout main, @NonNull FragmentContainerView map) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
     this.main = main;
     this.map = map;
   }
@@ -59,6 +64,12 @@ public final class VentanaMapaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBack;
+      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.map;
@@ -67,7 +78,7 @@ public final class VentanaMapaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VentanaMapaBinding((ConstraintLayout) rootView, main, map);
+      return new VentanaMapaBinding((ConstraintLayout) rootView, btnBack, main, map);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

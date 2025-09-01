@@ -30,6 +30,10 @@ public class GraphManager {
         graph.agregarVuelo(codigoOrigen, codigoDestino, weight);
     }
 
+    public void eliminarConexion(String codigoOrigen, String codigoDestino){
+        graph.eliminarVuelo(codigoOrigen, codigoDestino);
+    }
+
     // Getters
     public Graph getGraph() {
         return graph;

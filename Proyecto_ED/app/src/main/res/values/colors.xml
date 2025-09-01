@@ -9,5 +9,9 @@
     <color name = "color5">#EBCF75</color>
     <color name = "gris">#878E8B</color>
     <color name="fondo">#334F66</color>
+    <color name="brand_orange">#FF7A00</color>
+    <color name="brand_orange_ripple">#66FF7A00</color>
+    <color name="brand_red">#F44336</color>
+
 
 </resources>
