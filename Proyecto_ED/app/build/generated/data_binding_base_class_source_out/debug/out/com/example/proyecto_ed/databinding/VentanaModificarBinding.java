@@ -4,6 +4,8 @@ package com.example.proyecto_ed.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +14,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.proyecto_ed.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,7 +27,16 @@ public final class VentanaModificarBinding implements ViewBinding {
   public final LottieAnimationView animationView;
 
   @NonNull
+  public final ImageButton atras;
+
+  @NonNull
+  public final MaterialButton botonModificar;
+
+  @NonNull
   public final ConstraintLayout modificar;
+
+  @NonNull
+  public final ListView mostrarVuelos;
 
   @NonNull
   public final TextView textView21;
@@ -33,11 +45,15 @@ public final class VentanaModificarBinding implements ViewBinding {
   public final TextView textView8;
 
   private VentanaModificarBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LottieAnimationView animationView, @NonNull ConstraintLayout modificar,
-      @NonNull TextView textView21, @NonNull TextView textView8) {
+      @NonNull LottieAnimationView animationView, @NonNull ImageButton atras,
+      @NonNull MaterialButton botonModificar, @NonNull ConstraintLayout modificar,
+      @NonNull ListView mostrarVuelos, @NonNull TextView textView21, @NonNull TextView textView8) {
     this.rootView = rootView;
     this.animationView = animationView;
+    this.atras = atras;
+    this.botonModificar = botonModificar;
     this.modificar = modificar;
+    this.mostrarVuelos = mostrarVuelos;
     this.textView21 = textView21;
     this.textView8 = textView8;
   }
@@ -75,7 +91,25 @@ public final class VentanaModificarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.atras;
+      ImageButton atras = ViewBindings.findChildViewById(rootView, id);
+      if (atras == null) {
+        break missingId;
+      }
+
+      id = R.id.botonModificar;
+      MaterialButton botonModificar = ViewBindings.findChildViewById(rootView, id);
+      if (botonModificar == null) {
+        break missingId;
+      }
+
       ConstraintLayout modificar = (ConstraintLayout) rootView;
+
+      id = R.id.mostrarVuelos;
+      ListView mostrarVuelos = ViewBindings.findChildViewById(rootView, id);
+      if (mostrarVuelos == null) {
+        break missingId;
+      }
 
       id = R.id.textView21;
       TextView textView21 = ViewBindings.findChildViewById(rootView, id);
@@ -89,8 +123,8 @@ public final class VentanaModificarBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VentanaModificarBinding((ConstraintLayout) rootView, animationView, modificar,
-          textView21, textView8);
+      return new VentanaModificarBinding((ConstraintLayout) rootView, animationView, atras,
+          botonModificar, modificar, mostrarVuelos, textView21, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

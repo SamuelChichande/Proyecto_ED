@@ -4,7 +4,9 @@ package com.example.proyecto_ed.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +15,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.proyecto_ed.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,10 +25,16 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText Fllegada;
+  public final EditText Aerolinea;
 
   @NonNull
-  public final EditText Fsalida;
+  public final EditText Capacidad;
+
+  @NonNull
+  public final DatePicker Fllegada;
+
+  @NonNull
+  public final DatePicker Fsalida;
 
   @NonNull
   public final EditText HoraLlegada;
@@ -34,7 +43,7 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
   public final EditText HoraSalida;
 
   @NonNull
-  public final EditText aerolinea;
+  public final EditText Precio;
 
   @NonNull
   public final LottieAnimationView animationView;
@@ -43,22 +52,28 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
   public final EditText asientosDisp;
 
   @NonNull
-  public final EditText capacidad;
+  public final ImageButton back;
+
+  @NonNull
+  public final MaterialButton cancelar;
 
   @NonNull
   public final EditText destino;
 
   @NonNull
-  public final EditText distancia;
+  public final EditText dist;
+
+  @NonNull
+  public final MaterialButton guardar;
 
   @NonNull
   public final ConstraintLayout modificacionVuelo;
 
   @NonNull
-  public final EditText origen;
+  public final TextView mostrarDatosVuelo;
 
   @NonNull
-  public final EditText precio;
+  public final EditText origen;
 
   @NonNull
   public final TextView textView11;
@@ -94,36 +109,38 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
   public final TextView textView22;
 
   @NonNull
-  public final TextView textView23;
-
-  @NonNull
   public final TextView textView9;
 
   private VentanaModificacionVueloSeleccionadoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText Fllegada, @NonNull EditText Fsalida, @NonNull EditText HoraLlegada,
-      @NonNull EditText HoraSalida, @NonNull EditText aerolinea,
-      @NonNull LottieAnimationView animationView, @NonNull EditText asientosDisp,
-      @NonNull EditText capacidad, @NonNull EditText destino, @NonNull EditText distancia,
-      @NonNull ConstraintLayout modificacionVuelo, @NonNull EditText origen,
-      @NonNull EditText precio, @NonNull TextView textView11, @NonNull TextView textView12,
+      @NonNull EditText Aerolinea, @NonNull EditText Capacidad, @NonNull DatePicker Fllegada,
+      @NonNull DatePicker Fsalida, @NonNull EditText HoraLlegada, @NonNull EditText HoraSalida,
+      @NonNull EditText Precio, @NonNull LottieAnimationView animationView,
+      @NonNull EditText asientosDisp, @NonNull ImageButton back, @NonNull MaterialButton cancelar,
+      @NonNull EditText destino, @NonNull EditText dist, @NonNull MaterialButton guardar,
+      @NonNull ConstraintLayout modificacionVuelo, @NonNull TextView mostrarDatosVuelo,
+      @NonNull EditText origen, @NonNull TextView textView11, @NonNull TextView textView12,
       @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
       @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
       @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView22,
-      @NonNull TextView textView23, @NonNull TextView textView9) {
+      @NonNull TextView textView9) {
     this.rootView = rootView;
+    this.Aerolinea = Aerolinea;
+    this.Capacidad = Capacidad;
     this.Fllegada = Fllegada;
     this.Fsalida = Fsalida;
     this.HoraLlegada = HoraLlegada;
     this.HoraSalida = HoraSalida;
-    this.aerolinea = aerolinea;
+    this.Precio = Precio;
     this.animationView = animationView;
     this.asientosDisp = asientosDisp;
-    this.capacidad = capacidad;
+    this.back = back;
+    this.cancelar = cancelar;
     this.destino = destino;
-    this.distancia = distancia;
+    this.dist = dist;
+    this.guardar = guardar;
     this.modificacionVuelo = modificacionVuelo;
+    this.mostrarDatosVuelo = mostrarDatosVuelo;
     this.origen = origen;
-    this.precio = precio;
     this.textView11 = textView11;
     this.textView12 = textView12;
     this.textView13 = textView13;
@@ -135,7 +152,6 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
     this.textView19 = textView19;
     this.textView20 = textView20;
     this.textView22 = textView22;
-    this.textView23 = textView23;
     this.textView9 = textView9;
   }
 
@@ -167,14 +183,26 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Aerolinea;
+      EditText Aerolinea = ViewBindings.findChildViewById(rootView, id);
+      if (Aerolinea == null) {
+        break missingId;
+      }
+
+      id = R.id.Capacidad;
+      EditText Capacidad = ViewBindings.findChildViewById(rootView, id);
+      if (Capacidad == null) {
+        break missingId;
+      }
+
       id = R.id.Fllegada;
-      EditText Fllegada = ViewBindings.findChildViewById(rootView, id);
+      DatePicker Fllegada = ViewBindings.findChildViewById(rootView, id);
       if (Fllegada == null) {
         break missingId;
       }
 
       id = R.id.Fsalida;
-      EditText Fsalida = ViewBindings.findChildViewById(rootView, id);
+      DatePicker Fsalida = ViewBindings.findChildViewById(rootView, id);
       if (Fsalida == null) {
         break missingId;
       }
@@ -191,9 +219,9 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
         break missingId;
       }
 
-      id = R.id.aerolinea;
-      EditText aerolinea = ViewBindings.findChildViewById(rootView, id);
-      if (aerolinea == null) {
+      id = R.id.Precio;
+      EditText Precio = ViewBindings.findChildViewById(rootView, id);
+      if (Precio == null) {
         break missingId;
       }
 
@@ -209,9 +237,15 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
         break missingId;
       }
 
-      id = R.id.capacidad;
-      EditText capacidad = ViewBindings.findChildViewById(rootView, id);
-      if (capacidad == null) {
+      id = R.id.back;
+      ImageButton back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
+
+      id = R.id.cancelar;
+      MaterialButton cancelar = ViewBindings.findChildViewById(rootView, id);
+      if (cancelar == null) {
         break missingId;
       }
 
@@ -221,23 +255,29 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
         break missingId;
       }
 
-      id = R.id.distancia;
-      EditText distancia = ViewBindings.findChildViewById(rootView, id);
-      if (distancia == null) {
+      id = R.id.dist;
+      EditText dist = ViewBindings.findChildViewById(rootView, id);
+      if (dist == null) {
+        break missingId;
+      }
+
+      id = R.id.guardar;
+      MaterialButton guardar = ViewBindings.findChildViewById(rootView, id);
+      if (guardar == null) {
         break missingId;
       }
 
       ConstraintLayout modificacionVuelo = (ConstraintLayout) rootView;
 
-      id = R.id.origen;
-      EditText origen = ViewBindings.findChildViewById(rootView, id);
-      if (origen == null) {
+      id = R.id.mostrarDatosVuelo;
+      TextView mostrarDatosVuelo = ViewBindings.findChildViewById(rootView, id);
+      if (mostrarDatosVuelo == null) {
         break missingId;
       }
 
-      id = R.id.precio;
-      EditText precio = ViewBindings.findChildViewById(rootView, id);
-      if (precio == null) {
+      id = R.id.origen;
+      EditText origen = ViewBindings.findChildViewById(rootView, id);
+      if (origen == null) {
         break missingId;
       }
 
@@ -307,23 +347,17 @@ public final class VentanaModificacionVueloSeleccionadoBinding implements ViewBi
         break missingId;
       }
 
-      id = R.id.textView23;
-      TextView textView23 = ViewBindings.findChildViewById(rootView, id);
-      if (textView23 == null) {
-        break missingId;
-      }
-
       id = R.id.textView9;
       TextView textView9 = ViewBindings.findChildViewById(rootView, id);
       if (textView9 == null) {
         break missingId;
       }
 
-      return new VentanaModificacionVueloSeleccionadoBinding((ConstraintLayout) rootView, Fllegada,
-          Fsalida, HoraLlegada, HoraSalida, aerolinea, animationView, asientosDisp, capacidad,
-          destino, distancia, modificacionVuelo, origen, precio, textView11, textView12, textView13,
-          textView14, textView15, textView16, textView17, textView18, textView19, textView20,
-          textView22, textView23, textView9);
+      return new VentanaModificacionVueloSeleccionadoBinding((ConstraintLayout) rootView, Aerolinea,
+          Capacidad, Fllegada, Fsalida, HoraLlegada, HoraSalida, Precio, animationView,
+          asientosDisp, back, cancelar, destino, dist, guardar, modificacionVuelo,
+          mostrarDatosVuelo, origen, textView11, textView12, textView13, textView14, textView15,
+          textView16, textView17, textView18, textView19, textView20, textView22, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

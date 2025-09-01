@@ -76,12 +76,16 @@ public class GestorVuelos {
         if (id < 0 || id > vuelos.size() || vueloModificado == null) return;
 
         for (Vuelo vuelo: vuelos){
-            if (vuelo.getId() == id) vuelos.add(id, vueloModificado);
+            if (vuelo.getId() == id) vuelos.set(id, vueloModificado);
         }
     }
 
     public int getLastID(){
         return vuelos.getLast().getId();
+    }
+
+    public Vuelo getVuelo(int id){
+        return vuelos.get(id);
     }
 
     public LinkedList<Vuelo> getVuelos(){
